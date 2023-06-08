@@ -119,7 +119,7 @@ Based on the raw logs, it looks like there were multiple HTTP requests sent atte
 </br>
 </br>
 
-I decoded URLs found in each HTTP requests. The decoded URLs show that multiple SQLi medthods were attempted.
+I decoded the URLs found in each HTTP requests. The decoded URLs show that multiple SQLi medthods were attempted.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/8d3db841-da91-4e2e-bb88-62fce1798d30" height="80%" width="80%"/>
 </br>
