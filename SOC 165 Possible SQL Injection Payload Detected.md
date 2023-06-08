@@ -139,9 +139,11 @@ Based on the raw logs it looks like there were multiple HTTP requests sent attem
 I decoded URLs found in each HTTP requests.
 * The decoded URLs show that multiple SQLi medthods were attempted.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/8d3db841-da91-4e2e-bb88-62fce1798d30" height="80%" width="80%"/>
 </br>
 </br>
+
+# Was the Attack Successful?
 
 Since mulitple there were multiple SQLi attempts using different methods that resulted in a consistent response size of 948, this indicates that that the attack was not successful.
 
