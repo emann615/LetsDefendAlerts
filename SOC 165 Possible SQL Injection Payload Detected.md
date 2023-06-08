@@ -59,7 +59,7 @@ Since Abuse IPDB and Cisco Talos were inconclusive, I checked VirusTotal.
 I still wanted a second source to confirm that the IP is malicious, so I also checked Hybrid Analysis.
 * The results show that the IP is malicious with a Threat Score of 100/100
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/10bb51ca-d1f8-47e4-ac77-0239b91c3056" height="80%" width="80%"/>
 </br>
 </br>
 
