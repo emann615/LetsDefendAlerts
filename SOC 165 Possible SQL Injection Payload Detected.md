@@ -52,7 +52,7 @@ Next, I searched 167.99.169.17 in Cisco Talos IP & Domain Reputation Center
 Since Abuse IPDB and Cisco Talos were inconclusive, I checked VirusTotal.
 - VirusTotal shows that 9 vendors identified the IP address as malicious.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/2b8dfcc3-270f-493e-9a0a-57693846a82b" height="80%" width="80%"/>
 </br>
 </br>
 
