@@ -145,12 +145,16 @@ I decoded URLs found in each HTTP requests.
 
 # Was the Attack Successful?
 
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/5e2dae47-b1ad-4265-a9a7-aecd0c5c4b13" height="80%" width="80%"/>
+</br>
+</br>
+
 Since mulitple there were multiple SQLi attempts using different methods that resulted in a consistent response size of 948, this indicates that that the attack was not successful.
 
 I laso checked the Command History for WebServer1001 in the Endpoint Security tool.
 * The command history shows no indication that the attack was successful.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/38f8e75d-bc99-4ac7-b278-911222783ceb" height="80%" width="80%"/>
 </br>
 </br>
 
