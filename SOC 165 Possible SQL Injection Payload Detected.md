@@ -18,7 +18,7 @@ Looking at the Monitoring page, I see an alert was triggered because a possible 
 </br>
 </br>
 
-I searched the Endpoint Security page to see if either of the IP addresses are owned by the internal network. The destination IP address 172.16.17.18 is associated with WebServer1001. The source IP address 167.99.169.17 did not return any results, indicating that it is outside the network.
+I searched the Endpoint Security page to see if either of the IP addresses are owned by the internal network. The destination IP address (172.16.17.18) is associated with WebServer1001. The source IP address (167.99.169.17) did not return any results, indicating that it is outside the network.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/2b4f5c07-4713-4daa-9c75-4bb81db51787" height="80%" width="80%"/>
 </br>
@@ -46,7 +46,7 @@ Since Abuse IPDB and Cisco Talos were inconclusive, I decided to check VirusTota
 </br>
 </br>
 
-I still wanted a second source to confirm that the IP is malicious, so I also checked Hybrid Analysis. The results show that the IP address is malicious with a Threat Score of 100/100
+I still wanted a second source to confirm that the IP is malicious, so I also checked Hybrid Analysis. The results show that the IP address is malicious with a Threat Score of 100/100.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/10bb51ca-d1f8-47e4-ac77-0239b91c3056" height="80%" width="80%"/>
 </br>
@@ -91,7 +91,7 @@ I searched the source IP address, destination Ip address, and hostname on the Em
 </br>
 </br>
 
-Based on the investigation so far, I know the source IP address is from the internet and the destination Ip address if from the internal network. Therefore the direction of traffic is **Internet -> Company Network**.
+Based on the investigation so far, I know the source IP address is from the internet and the destination IP address is from the internal network. Therefore, the direction of traffic is **Internet -> Company Network**.
 
 ## Check Whether the Attack Was Successful
 
