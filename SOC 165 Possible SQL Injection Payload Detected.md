@@ -45,7 +45,7 @@ I searched 167.99.169.17 in AbuseIPDB to identify the owner and IP address reput
 Next, I searched 167.99.169.17 in Cisco Talos IP & Domain Reputation Center
 * It shows the IP reputation as Neutral.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/31644863-71df-423a-b154-92c80fb90cf4" height="80%" width="80%"/>
 </br>
 </br>
 
