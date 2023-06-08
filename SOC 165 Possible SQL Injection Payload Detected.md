@@ -65,7 +65,7 @@ I still wanted a second source to confirm that the IP is malicious, so I also ch
 
 ## Examine HTTP Traffic
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f26b7874-4e5f-4af7-ad45-e29efb7af1e9" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -73,13 +73,29 @@ I used a URL decoder to decode and examine the URL in the HTTP Request.
 * Decoded URL: https://172.16.17.18/search/?q=" OR 1 = 1 -- -
   * The decoded URL indicates **SQL injection** is the attack method.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Check If It Is a Planned Test
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 I searched the source IP address, destination Ip address, and hostname in the Email Security tool.
 * No results were populated so their is no indication that this was a planned test.
 * There is also no indication that an attack simulation product was used.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ## What is the Direction of Traffic?
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 Based on the investigation so far, I know the source IP address is from the internet and the destination Ip address if from the internal network.
 * Therefor the direction of traffic is **Internet -> Company Network**.
