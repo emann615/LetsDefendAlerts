@@ -79,15 +79,23 @@ I used a URL decoder to decode and examine the URL in the HTTP Request.
 
 ## Check If It Is a Planned Test
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/fdee709c-36dd-4f65-b519-d213e196dba9" height="80%" width="80%"/>
 </br>
 </br>
 
 I searched the source IP address, destination Ip address, and hostname in the Email Security tool.
-* No results were populated so their is no indication that this was a planned test.
+* No results were populated, so their is no indication that this was a planned test.
 * There is also no indication that an attack simulation product was used.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/9b20c0b0-efce-4f82-9763-d05ef4c78920" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/bb30c54b-93a3-4807-bbad-b67fef846700" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/2944b804-c84f-4257-ac15-c3138697a1d8" height="80%" width="80%"/>
 </br>
 </br>
 
