@@ -158,16 +158,22 @@ I laso checked the Command History for WebServer1001 in the Endpoint Security to
 </br>
 </br>
 
+## Add Artifacts
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/294de25c-608b-4ba6-a606-a17f15b5f14c" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Do You Need Tier 2 Escalation?
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/8f571104-35ee-4c0d-84d7-40505fa458b1" height="80%" width="80%"/>
 </br>
 </br>
 
-Since the attack the attack was not successful and it did not originate from the internal network, there is no need to escalate.
+Since the attack the attack was not successful, and it did not originate from the internal network, there is no need to escalate.
 
 ## Analyst Note
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/e3b48eca-d64c-45fe-ba8b-193553aaa4e5" height="80%" width="80%"/>
 </br>
 </br>
