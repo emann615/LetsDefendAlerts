@@ -3,22 +3,20 @@
 ## Collect Data
 
 I searched the Endpoint Security tool to see if either of the IP addresses are owned by the internal network.
-* the destination Ip address 172.16.17.18 is associated with WebServer1001 in Endpoint Security.
-* The source IP address 167.99.169.17 did not return any results in Endpoint Security, indicating that it is outside the network.
-   * 172.16.17.18 (WebServer1001)
-   * 167.99.169.17 (internet address)
+* The destination IP address 172.16.17.18 is associated with WebServer1001.
+* The source IP address 167.99.169.17 did not return any results, indicating that it is outside the network.
    
-I searched 167.99.169.17 in AbuseIPDB to identify the hosting and IP address reputation.
+I searched 167.99.169.17 in AbuseIPDB to identify the owner and IP address reputation.
 * It shows that the ISP is DigitalOcean LLC
 * The IP was reported 15,152 times, but the Confidence of Abuse is 0%.
 
 Next, I searched 167.99.169.17 in Cisco Talos IP & Domain Reputation Center
 * It shows the IP reputation as Neutral.
 
-Since Abuse IPDB and Cisco Talos were inconclusive, I checked the reputation of source IP address (167.99.169.17) in VirusTotal.
+Since Abuse IPDB and Cisco Talos were inconclusive, I checked VirusTotal.
 - VirusTotal shows that 9 vendors identified the IP address as malicious.
 
-I still wanted a second source to confirm that the IP is malicious so I also checked Hybrid Analysis.
+I still wanted a second source to confirm that the IP is malicious, so I also checked Hybrid Analysis.
 * The results show that the IP is malicious with a Threat Score of 100/100
 
 ## Examine HTTP Traffic
@@ -35,7 +33,7 @@ I searched the source IP address, destination Ip address, and hostname in the Em
 
 ## What is the Direction of Traffic?
 
-Based on the investigation so far I know the source IP address is from the internet and the destination Ip address if from the internal network.
+Based on the investigation so far, I know the source IP address is from the internet and the destination Ip address if from the internal network.
 * Therefor the direction of traffic is **Internet -> Company Network**.
 
 ## Check Whether the Attack Was Successful
