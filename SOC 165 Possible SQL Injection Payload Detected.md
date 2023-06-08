@@ -25,21 +25,49 @@ First, I must collect some basic data about the attack, including the ownership 
 I searched the Endpoint Security tool to see if either of the IP addresses are owned by the internal network.
 * The destination IP address 172.16.17.18 is associated with WebServer1001.
 * The source IP address 167.99.169.17 did not return any results, indicating that it is outside the network.
-   
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/2b4f5c07-4713-4daa-9c75-4bb81db51787" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f56978f0-b32a-4959-812f-504bb044e9c4" height="80%" width="80%"/>
+</br>
+</br>
+
 I searched 167.99.169.17 in AbuseIPDB to identify the owner and IP address reputation.
 * It shows that the ISP is DigitalOcean LLC
 * The IP was reported 15,152 times, but the Confidence of Abuse is 0%.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 Next, I searched 167.99.169.17 in Cisco Talos IP & Domain Reputation Center
 * It shows the IP reputation as Neutral.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 Since Abuse IPDB and Cisco Talos were inconclusive, I checked VirusTotal.
 - VirusTotal shows that 9 vendors identified the IP address as malicious.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 I still wanted a second source to confirm that the IP is malicious, so I also checked Hybrid Analysis.
 * The results show that the IP is malicious with a Threat Score of 100/100
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Examine HTTP Traffic
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 I used a URL decoder to decode and examine the URL in the HTTP Request.
 * Decoded URL: https://172.16.17.18/search/?q=" OR 1 = 1 -- -
