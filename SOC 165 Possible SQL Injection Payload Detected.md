@@ -101,7 +101,7 @@ I searched the source IP address, destination Ip address, and hostname in the Em
 
 ## What is the Direction of Traffic?
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/2944b804-c84f-4257-ac15-c3138697a1d8" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -109,6 +109,10 @@ Based on the investigation so far, I know the source IP address is from the inte
 * Therefor the direction of traffic is **Internet -> Company Network**.
 
 ## Check Whether the Attack Was Successful
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 I checked the Log Managment tool to see if there was any indication that the attack was successful.
 * I searched the source IP (167.99.169.17) and found multiple log entries.
