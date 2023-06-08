@@ -13,7 +13,7 @@ I searched 167.99.169.17 in AbuseIPDB to identify the hosting and IP address rep
 * The IP was reported 15,152 times, but the Confidence of Abuse is 0%.
 
 Next, I searched 167.99.169.17 in Cisco Talos IP & Domain Reputation Center
-* It shows the IP reputation as Neutral
+* It shows the IP reputation as Neutral.
 
 Since Abuse IPDB and Cisco Talos were inconclusive, I checked the reputation of source IP address (167.99.169.17) in VirusTotal.
 - VirusTotal shows that 9 vendors identified the IP address as malicious.
