@@ -101,7 +101,7 @@ I searched the source IP address, destination Ip address, and hostname in the Em
 
 ## What is the Direction of Traffic?
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/2944b804-c84f-4257-ac15-c3138697a1d8" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/30c8f9d2-d238-432f-9503-014d7a02e9d5" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -110,21 +110,29 @@ Based on the investigation so far, I know the source IP address is from the inte
 
 ## Check Whether the Attack Was Successful
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/30c8f9d2-d238-432f-9503-014d7a02e9d5" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/7b36c23e-9129-4c31-afa3-62c3e374fcfa" height="80%" width="80%"/>
 </br>
 </br>
 
 I checked the Log Managment tool to see if there was any indication that the attack was successful.
 * I searched the source IP (167.99.169.17) and found multiple log entries.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/7b36c23e-9129-4c31-afa3-62c3e374fcfa" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/bc3e0019-5e1c-45c8-ae19-1c66b2200a17" height="80%" width="80%"/>
 </br>
 </br>
 
 Based on the raw logs it looks like there were multiple HTTP requests sent attempting SQL injection.
 * all of the request resulted in a status code of 500 and a response size of 948.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a0f08f6a-a48d-4f8c-b689-c5b72d52c074" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/bfc86b33-29ae-40e3-9626-0e99929647ea" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/4e2a0860-5712-4604-8666-18231ba4cba8" height="80%" width="80%"/>
 </br>
 </br>
 
