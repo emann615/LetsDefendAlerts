@@ -16,6 +16,10 @@ I take ownership of the alert and create a case, so I cant start the playbook.
 
 ## Collect Data
 
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/6d741aa8-6e9c-465e-a52f-f50909b950e2" height="80%" width="80%"/>
+</br>
+</br>
+
 I searched the Endpoint Security tool to see if either of the IP addresses are owned by the internal network.
 * The destination IP address 172.16.17.18 is associated with WebServer1001.
 * The source IP address 167.99.169.17 did not return any results, indicating that it is outside the network.
