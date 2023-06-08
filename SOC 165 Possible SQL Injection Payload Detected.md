@@ -73,7 +73,7 @@ I used a URL decoder to decode and examine the URL in the HTTP Request.
 * Decoded URL: https://172.16.17.18/search/?q=" OR 1 = 1 -- -
   * The decoded URL indicates **SQL injection** is the attack method.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/398b0275-a38b-45cb-b647-32a776dfca97" height="80%" width="80%"/>
 </br>
 </br>
 
