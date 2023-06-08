@@ -91,7 +91,7 @@ I searched the source IP address, destination Ip address, and hostname on the Em
 </br>
 </br>
 
-Based on the investigation so far, I know the source IP address is from the internet and the destination IP address is from the internal network. Therefore, the direction of traffic is **Internet -> Company Network**.
+Based on the investigation so far, I know the source IP address is from the internet, and the destination IP address is from the internal network. Therefore, the direction of traffic is **Internet -> Company Network**.
 
 ## Check Whether the Attack Was Successful
 
