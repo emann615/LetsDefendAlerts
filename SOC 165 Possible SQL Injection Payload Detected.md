@@ -10,6 +10,10 @@ Looking at the Monitoring page, I see an alert was triggered because a poddible 
 
 I take ownership of the alert and create a case, so I cant start the playbook.
 
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f2d64f00-ec61-4cb6-892e-1f3944aaafd3" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Collect Data
 
 I searched the Endpoint Security tool to see if either of the IP addresses are owned by the internal network.
