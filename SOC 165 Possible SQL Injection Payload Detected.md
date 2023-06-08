@@ -16,6 +16,8 @@ I take ownership of the alert and create a case, so I cant start the playbook.
 
 ## Collect Data
 
+First, I must collect some basic data about the attack, including the ownership and reputation of the IP adresses involved.
+
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/6d741aa8-6e9c-465e-a52f-f50909b950e2" height="80%" width="80%"/>
 </br>
 </br>
