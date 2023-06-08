@@ -124,15 +124,15 @@ I checked the Log Managment tool to see if there was any indication that the att
 Based on the raw logs it looks like there were multiple HTTP requests sent attempting SQL injection.
 * all of the request resulted in a status code of 500 and a response size of 948.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a0f08f6a-a48d-4f8c-b689-c5b72d52c074" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a0f08f6a-a48d-4f8c-b689-c5b72d52c074" height="60%" width="60%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/bfc86b33-29ae-40e3-9626-0e99929647ea" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/bfc86b33-29ae-40e3-9626-0e99929647ea" height="60%" width="60%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/4e2a0860-5712-4604-8666-18231ba4cba8" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/4e2a0860-5712-4604-8666-18231ba4cba8" height="60%" width="60%"/>
 </br>
 </br>
 
