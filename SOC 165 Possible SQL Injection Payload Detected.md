@@ -110,23 +110,50 @@ Based on the investigation so far, I know the source IP address is from the inte
 
 ## Check Whether the Attack Was Successful
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/30c8f9d2-d238-432f-9503-014d7a02e9d5" height="80%" width="80%"/>
 </br>
 </br>
 
 I checked the Log Managment tool to see if there was any indication that the attack was successful.
 * I searched the source IP (167.99.169.17) and found multiple log entries.
-* Based on the raw logs it looks like there were multiple HTTP requests sent attempting SQL injection.
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/7b36c23e-9129-4c31-afa3-62c3e374fcfa" height="80%" width="80%"/>
+</br>
+</br>
+
+Based on the raw logs it looks like there were multiple HTTP requests sent attempting SQL injection.
 * all of the request resulted in a status code of 500 and a response size of 948.
-* I decoded URLs found in each HTTP requests.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
+I decoded URLs found in each HTTP requests.
 * The decoded URLs show that multiple SQLi medthods were attempted.
-* Since mulitple there were multiple SQLi attempts using different methods that resulted in a consistent response size of 948, this indicates that that the attack was not successful.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
+Since mulitple there were multiple SQLi attempts using different methods that resulted in a consistent response size of 948, this indicates that that the attack was not successful.
 
 I laso checked the Command History for WebServer1001 in the Endpoint Security tool.
 * The command history shows no indication that the attack was successful.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Do You Need Tier 2 Escalation?
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 Since the attack the attack was not successful and it did not originate from the internal network, there is no need to escalate.
 
 ## Analyst Note
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
