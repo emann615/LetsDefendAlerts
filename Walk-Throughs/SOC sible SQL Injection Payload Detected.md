@@ -151,7 +151,7 @@ I laso checked the command history for WebServer1001 on the Endpoint Security pa
 </br>
 </br>
 
-Since the attack the attack was not successful, and it did not originate from the internal network, there is no need to escalate.
+Since the attack was not successful, and it did not originate from the internal network, there is no need to escalate.
 
 ## Analyst Note
 
