@@ -2,13 +2,11 @@
 
 ## Alert
 
-Looking at the Monitoring page, I see an alert was triggered because a poddible SQL injection payload was detected.
-
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0b5cb554-2194-4a33-819e-7b6b59276187" height="80%" width="80%"/>
 </br>
 </br>
 
-I take ownership of the alert and create a case, so I cant start the playbook.
+Looking at the Monitoring page, I see an alert was triggered because a possible SQL injection payload was detected. I take ownership of the alert and create a case, so I cant start the playbook.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f2d64f00-ec61-4cb6-892e-1f3944aaafd3" height="80%" width="80%"/>
 </br>
@@ -16,13 +14,11 @@ I take ownership of the alert and create a case, so I cant start the playbook.
 
 ## Collect Data
 
-First, I must collect some basic data about the attack, including the ownership and reputation of the IP adresses involved.
-
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/6d741aa8-6e9c-465e-a52f-f50909b950e2" height="80%" width="80%"/>
 </br>
 </br>
 
-I searched the Endpoint Security tool to see if either of the IP addresses are owned by the internal network.
+I searched the Endpoint Security page to see if either of the IP addresses are owned by the internal network.
 * The destination IP address 172.16.17.18 is associated with WebServer1001.
 * The source IP address 167.99.169.17 did not return any results, indicating that it is outside the network.
 
@@ -83,7 +79,7 @@ I used a URL decoder to decode and examine the URL in the HTTP Request.
 </br>
 </br>
 
-I searched the source IP address, destination Ip address, and hostname in the Email Security tool.
+I searched the source IP address, destination Ip address, and hostname on the Email Security page.
 * No results were populated, so their is no indication that this was a planned test.
 * There is also no indication that an attack simulation product was used.
 
@@ -114,7 +110,7 @@ Based on the investigation so far, I know the source IP address is from the inte
 </br>
 </br>
 
-I checked the Log Managment tool to see if there was any indication that the attack was successful.
+I checked the Log Managment page to see if there was any indication that the attack was successful.
 * I searched the source IP (167.99.169.17) and found multiple log entries.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/bc3e0019-5e1c-45c8-ae19-1c66b2200a17" height="80%" width="80%"/>
@@ -151,7 +147,7 @@ I decoded URLs found in each HTTP requests.
 
 Since mulitple there were multiple SQLi attempts using different methods that resulted in a consistent response size of 948, this indicates that that the attack was not successful.
 
-I laso checked the Command History for WebServer1001 in the Endpoint Security tool.
+I laso checked the Command History for WebServer1001 on the Endpoint Security page.
 * The command history shows no indication that the attack was successful.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/38f8e75d-bc99-4ac7-b278-911222783ceb" height="80%" width="80%"/>
