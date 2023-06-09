@@ -119,10 +119,6 @@ I laso checked the command history for WebServer1001 on the Endpoint Security pa
 
 ## Do You Need Tier 2 Escalation?
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/8f571104-35ee-4c0d-84d7-40505fa458b1" height="80%" width="80%"/>
-</br>
-</br>
-
 Since the attack was not successful, and it did not originate from the internal network, there is no need to escalate.
 
 ## Analyst Note
