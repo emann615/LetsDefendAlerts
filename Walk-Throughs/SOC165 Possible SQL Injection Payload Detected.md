@@ -2,7 +2,7 @@
 
 ## Alert
 
-Looking at the Monitoring page, I see the alert was triggered because a possible SQL injection payload was detected. I took ownership of the alert and create a case, so I can start the playbook.
+Looking at the Monitoring page, I see the alert was triggered because a possible SQL injection payload was detected. I took ownership of the alert and created a case, so I can start the playbook.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0b5cb554-2194-4a33-819e-7b6b59276187" height="80%" width="80%"/>
 </br>
