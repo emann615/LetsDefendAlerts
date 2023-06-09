@@ -1,4 +1,4 @@
-# EventID 116 - SOC166 - Javascript Code Detected in Requested URL
+# EventID 116 - SOC166 - JavaScript Code Detected in Requested URL
 
 ## Alert
 
