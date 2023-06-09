@@ -62,35 +62,31 @@ The attack type is XSS, because a malicious script has been inserted into the re
 
 ### Check If It Is a Planned Test
 
-<img src="" height="80%" width="80%"/>
-</br>
-</br>
-
 On the Email Security page, I searched the hostname, destination IP address, and source IP address to see if there are any emails indicating that this was a planned test. No results were returned, so this does not appear to be a planned test.
 
-### What Is the Direction of Traffic?
-
 <img src="" height="80%" width="80%"/>
 </br>
 </br>
+
+### What Is the Direction of Traffic?
 
 The source IP address is from the internet, and the destination IP address is associated with a server on the internal network. This indicates that the direction of traffic is **Internet -> Company Network**.
 
 ### Check Whether the Attack Was Successful
 
+I searched the source IP address (112.85.42.13) on the Log Management page to see if there is any information indicated whether or not the attack was successful. Multiple log entries were returned.
+
 <img src="" height="80%" width="80%"/>
 </br>
 </br>
-
-I searched the source IP address (112.85.42.13) on the Log Management page to see if there is any information indicated whether or not the attack was successful. Multiple log entries were returned.
 
 After checking the raw logs for each entry, I was able to see that multiple attempts at XSS were made. The HTTP Response Size was 0, and the HTTP Response Status was 302 for all the XSS attempts, indicating that the attack was not successful.
 
-### Was the Attack Successful?
-
 <img src="" height="80%" width="80%"/>
 </br>
 </br>
+
+### Was the Attack Successful?
 
 Based on the findings in the previous step of my investigation, the attack was not successful.
 
