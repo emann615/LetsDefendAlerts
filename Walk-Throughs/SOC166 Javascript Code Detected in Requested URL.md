@@ -113,5 +113,3 @@ There is no need to escalate the case since the attack was not successful, and i
 <img src="" height="80%" width="80%"/>
 </br>
 </br>
-
-There were multiple attempts by 112.85.42.13 to attack WebServer1002 using XSS. All attempts resulted in a HTTP response status of 302 and a HTTP response size of 0, indicating that the attack was not successful.
