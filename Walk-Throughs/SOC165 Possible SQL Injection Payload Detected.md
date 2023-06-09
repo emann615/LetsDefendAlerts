@@ -101,7 +101,7 @@ I decoded the URLs found in each HTTP requests. The decoded URLs show that multi
 </br>
 </br>
 
-# Was the Attack Successful?
+## Was the Attack Successful?
 
 Since mulitple there were multiple SQLi attempts using different methods that resulted in a consistent response size of 948, this indicates that that the attack was not successful.
 
