@@ -58,10 +58,6 @@ Based on the information found in the previous step of my investigation, the tra
 
 ### What Is The Attack Type?
 
-<img src="" height="80%" width="80%"/>
-</br>
-</br>
-
 The attack type is XSS, because a malicious script has been inserted into the requested URL.
 
 ### Check If It Is a Planned Test
