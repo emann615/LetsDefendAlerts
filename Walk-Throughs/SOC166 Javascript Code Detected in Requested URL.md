@@ -90,19 +90,19 @@ I searched the source IP address (112.85.42.13) on the Log Management page to se
 
 After checking the raw logs for each entry, I was able to see that multiple attempts at XSS were made. The HTTP Response Size was 0, and the HTTP Response Status was 302 for all the XSS attempts, indicating that the attack was not successful.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/d2af44b8-5b3a-4efe-b625-087f4a5e3bb9" height="60%" width="60%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/d2af44b8-5b3a-4efe-b625-087f4a5e3bb9" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/2e90deea-d9ba-4809-9871-b476d0cbb3e2" height="60%" width="60%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/2e90deea-d9ba-4809-9871-b476d0cbb3e2" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/7127efeb-a52a-4774-ba0c-91e019f18345" height="60%" width="60%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/7127efeb-a52a-4774-ba0c-91e019f18345" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0404199a-4ad6-464b-8619-c862accac60c" height="60%" width="60%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0404199a-4ad6-464b-8619-c862accac60c" height="40%" width="40%"/>
 </br>
 </br>
 
