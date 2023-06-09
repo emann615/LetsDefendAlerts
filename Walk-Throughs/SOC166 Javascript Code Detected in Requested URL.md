@@ -84,7 +84,7 @@ The source IP address is from the internet, and the destination IP address is as
 
 I searched the source IP address (112.85.42.13) on the Log Management page to see if there is any information indicated whether or not the attack was successful. Multiple log entries were returned.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/e453097c-ffed-4a51-9168-6efffbf8a2ea" height="80%" width="80%"/>
 </br>
 </br>
 
