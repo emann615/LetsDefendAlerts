@@ -102,10 +102,6 @@ Based on the findings in the previous step of my investigation, the attack was n
 
 ### Do You Need Tier 2 Escalation?
 
-<img src="" height="80%" width="80%"/>
-</br>
-</br>
-
 There is no need to escalate the case since the attack was not successful, and it originated from an external IP address.
 
 ## Analyst Note
