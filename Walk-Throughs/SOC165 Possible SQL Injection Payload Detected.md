@@ -2,21 +2,13 @@
 
 ## Alert
 
+Looking at the Monitoring page, I see the alert was triggered because a possible SQL injection payload was detected. I take ownership of the alert and create a case, so I can start the playbook.
+
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0b5cb554-2194-4a33-819e-7b6b59276187" height="80%" width="80%"/>
 </br>
 </br>
 
-Looking at the Monitoring page, I see the alert was triggered because a possible SQL injection payload was detected. I take ownership of the alert and create a case, so I can start the playbook.
-
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f2d64f00-ec61-4cb6-892e-1f3944aaafd3" height="80%" width="80%"/>
-</br>
-</br>
-
 ## Collect Data
-
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/6d741aa8-6e9c-465e-a52f-f50909b950e2" height="80%" width="80%"/>
-</br>
-</br>
 
 I searched the Endpoint Security page to see if either of the IP addresses are owned by the internal network. The destination IP address (172.16.17.18) is associated with WebServer1001. The source IP address (167.99.169.17) did not return any results, indicating that it is outside the network.
 
@@ -54,10 +46,6 @@ I still wanted a second source to confirm that the IP is malicious, so I also ch
 
 ## Examine HTTP Traffic
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f26b7874-4e5f-4af7-ad45-e29efb7af1e9" height="80%" width="80%"/>
-</br>
-</br>
-
 I used a URL decoder to decode and examine the URL in the HTTP Request. The decoded URL indicates **SQL injection** is the attack method.
 * Decoded URL: https://172.16.17.18/search/?q=" OR 1 = 1 -- -
 
@@ -66,10 +54,6 @@ I used a URL decoder to decode and examine the URL in the HTTP Request. The deco
 </br>
 
 ## Check If It Is a Planned Test
-
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/fdee709c-36dd-4f65-b519-d213e196dba9" height="80%" width="80%"/>
-</br>
-</br>
 
 I searched the source IP address, destination Ip address, and hostname on the Email Security page. No results were populated, so their is no indication that this was a planned test. There is also no indication that an attack simulation product was used.
 
@@ -87,17 +71,9 @@ I searched the source IP address, destination Ip address, and hostname on the Em
 
 ## What is the Direction of Traffic?
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/30c8f9d2-d238-432f-9503-014d7a02e9d5" height="80%" width="80%"/>
-</br>
-</br>
-
 Based on the investigation so far, I know the source IP address is from the internet, and the destination IP address is from the internal network. Therefore, the direction of traffic is **Internet -> Company Network**.
 
 ## Check Whether the Attack Was Successful
-
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/7b36c23e-9129-4c31-afa3-62c3e374fcfa" height="80%" width="80%"/>
-</br>
-</br>
 
 I checked the Log Managment page to see if there was any indication that the attack was successful. I searched the source IP address (167.99.169.17) and found multiple log entries.
 
