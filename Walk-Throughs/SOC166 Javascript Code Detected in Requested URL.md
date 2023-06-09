@@ -64,7 +64,15 @@ The attack type is XSS, because a malicious script has been inserted into the re
 
 On the Email Security page, I searched the hostname, destination IP address, and source IP address to see if there are any emails indicating that this was a planned test. No results were returned, so this does not appear to be a planned test.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/7e8cae7c-632e-45e6-a5cc-39915529120f" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/6682e126-7efc-439d-aa76-3cdcc6a9f4f0" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/9acef283-72c7-4225-b95d-657f5951c209" height="80%" width="80%"/>
 </br>
 </br>
 
