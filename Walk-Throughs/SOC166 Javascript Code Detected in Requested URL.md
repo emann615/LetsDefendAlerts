@@ -116,7 +116,7 @@ Based on the findings in the previous step of my investigation, the attack was n
 
 ## Add Artifacts
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/01056aad-108a-4437-bf47-8d3774c19425" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -126,6 +126,6 @@ Based on the organization's escalation procedure, there is no need to escalate t
 
 ## Analyst Note
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/bc6e3559-1e2d-42d2-8f0c-13deabda5e74" height="80%" width="80%"/>
 </br>
 </br>
