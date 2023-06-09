@@ -56,11 +56,11 @@ After examining the requested URL, I was able to confirm it does contain a scrip
 
 Based on the information found in the previous step of my investigation, the traffic appears to be malicious. JavaScript code has been inserted into the requested URL, and the source IP address (112.85.42.13) has been identified as malicious by multiple sources.
 
-### What Is The Attack Type?
+## What Is The Attack Type?
 
 The attack type is XSS, because a malicious script has been inserted into the requested URL.
 
-### Check If It Is a Planned Test
+## Check If It Is a Planned Test
 
 On the Email Security page, I searched the hostname, destination IP address, and source IP address to see if there are any emails indicating that this was a planned test. No results were returned, so this does not appear to be a planned test.
 
@@ -68,11 +68,11 @@ On the Email Security page, I searched the hostname, destination IP address, and
 </br>
 </br>
 
-### What Is the Direction of Traffic?
+## What Is the Direction of Traffic?
 
 The source IP address is from the internet, and the destination IP address is associated with a server on the internal network. This indicates that the direction of traffic is **Internet -> Company Network**.
 
-### Check Whether the Attack Was Successful
+## Check Whether the Attack Was Successful
 
 I searched the source IP address (112.85.42.13) on the Log Management page to see if there is any information indicated whether or not the attack was successful. Multiple log entries were returned.
 
@@ -86,21 +86,21 @@ After checking the raw logs for each entry, I was able to see that multiple atte
 </br>
 </br>
 
-### Was the Attack Successful?
+## Was the Attack Successful?
 
 Based on the findings in the previous step of my investigation, the attack was not successful.
 
-### Add Artifacts
+## Add Artifacts
 
 <img src="" height="80%" width="80%"/>
 </br>
 </br>
 
-### Do You Need Tier 2 Escalation?
+## Do You Need Tier 2 Escalation?
 
 Based on the organization's escalation procedure, there is no need to escalate the case since the attack was not successful, and it originated from an external IP address.
 
-### Analyst Note
+## Analyst Note
 
 <img src="" height="80%" width="80%"/>
 </br>
