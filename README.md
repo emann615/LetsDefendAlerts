@@ -4,6 +4,7 @@ LetsDefend is a hands-on Blue Team training platform that enables people to gain
 
 ## Web Attacks
 
+- [EventID 116 - SOC166 - JavaScript Code Detected in Requested URL](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/SOC166%20JavaScript%20Code%20Detected%20in%20Requested%20URL.md)
 - [EventID 115 - SOC165 - Possible SQL Injection Payload Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/SOC165%20Possible%20SQL%20Injection%20Payload%20Detected.md)
 
 ## Phishing Attacks
