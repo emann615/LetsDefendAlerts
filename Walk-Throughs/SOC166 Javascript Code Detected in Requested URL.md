@@ -2,13 +2,13 @@
 
 ## Alert
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/e0abc9dc-afff-4d32-9989-013d70e48885" height="80%" width="80%"/>
 </br>
 </br>
 
 The Monitoring page shows that this alert was triggered because JavaScript code was detected in a Requested URL.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/6ce80f5e-e9af-4a8c-aaeb-b973570d705b" height="80%" width="80%"/>
 </br>
 </br>
 
