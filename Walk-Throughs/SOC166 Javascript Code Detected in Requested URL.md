@@ -14,27 +14,47 @@ The Monitoring page shows that this alert was triggered because JavaScript code 
 
 ## Collect Data
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/10eea122-697a-479a-ba7c-02fcdf785e8b" height="80%" width="80%"/>
-</br>
-</br>
-
 I searched the Endpoint Security page to see if the source IP address or destination IP address belongs to the internal network. The destination IP address (172.16.17.17) is associated with WebServer1002 on the internal network. There were no results for the source IP address (112.85.42.13), indicating that it is outside the network.
 
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a0a3b2c9-7f1e-49b1-8901-a9139b40331e" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/168e0a11-e57c-487c-ab81-40f91e982161" height="80%" width="80%"/>
+</br>
+</br>
+
 I searched 112.85.42.13 in AbuseIPDB to see what information I could find on the ownership and reputation. The results show its ISP is China Unicom Jiangsu Province Network. The IP address has been reported 45,587 times, but the Confidence of Abuse is 1%.
-
-In order to find more information on the reputation, I searched 112.85.42.13 in Cisco Talos IP & Domain Reputation Center. It shows the IP reputation is Poor.
-
-I also searched 112.85.42.13 in VirusTotal. The last analysis was 16 days ago, so I reanalyzed the IP address. The results show 4/89 vendors flagged the IP address as malicious.
-
-I searched 112.85.42.13 in Hybrid Analysis to get an additional source on the IP address reputation. The results identified the IP address as malicious with a Threat Score of 100/100.
-
-## Examine HTTP Traffic
 
 <img src="" height="80%" width="80%"/>
 </br>
 </br>
 
+In order to find more information on the reputation, I searched 112.85.42.13 in Cisco Talos IP & Domain Reputation Center. It shows the IP reputation is Poor.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
+I also searched 112.85.42.13 in VirusTotal. The last analysis was 16 days ago, so I reanalyzed the IP address. The results show 4/89 vendors flagged the IP address as malicious.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
+I searched 112.85.42.13 in Hybrid Analysis to get an additional source on the IP address reputation. The results identified the IP address as malicious with a Threat Score of 100/100.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
+## Examine HTTP Traffic
+
 After examining the requested URL, I was able to confirm it does contain a script.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 ## Is the Traffic Malicious
 
