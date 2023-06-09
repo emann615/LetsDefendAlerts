@@ -100,7 +100,7 @@ Based on the findings in the previous step of my investigation, the attack was n
 
 Based on the organization's escalation procedure, there is no need to escalate the case since the attack was not successful, and it originated from an external IP address.
 
-## Analyst Note
+### Analyst Note
 
 <img src="" height="80%" width="80%"/>
 </br>
