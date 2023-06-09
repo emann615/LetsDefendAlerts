@@ -102,7 +102,7 @@ Based on the findings in the previous step of my investigation, the attack was n
 
 ### Do You Need Tier 2 Escalation?
 
-Based on the organization escalation procedure, there is no need to escalate the case since the attack was not successful, and it originated from an external IP address.
+Based on the organization's escalation procedure, there is no need to escalate the case since the attack was not successful, and it originated from an external IP address.
 
 ## Analyst Note
 
