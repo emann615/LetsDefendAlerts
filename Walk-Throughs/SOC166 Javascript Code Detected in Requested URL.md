@@ -22,25 +22,25 @@ I searched the Endpoint Security page to see if the source IP address or destina
 
 I searched 112.85.42.13 in AbuseIPDB to see what information I could find on the ownership and reputation. The results show its ISP is China Unicom Jiangsu Province Network. The IP address has been reported 45,587 times, but the Confidence of Abuse is 1%.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/30beed4f-85eb-4c67-84e1-4e5351b1224a" height="80%" width="80%"/>
 </br>
 </br>
 
 In order to find more information on the reputation, I searched 112.85.42.13 in Cisco Talos IP & Domain Reputation Center. It shows the IP reputation is Poor.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/c263d297-cbf9-4f0e-a617-556cb2cb5dae" height="80%" width="80%"/>
 </br>
 </br>
 
 I also searched 112.85.42.13 in VirusTotal. The last analysis was 16 days ago, so I reanalyzed the IP address. The results show 4/89 vendors flagged the IP address as malicious.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/71fbc329-971d-4af7-baf5-a2d91e003510" height="80%" width="80%"/>
 </br>
 </br>
 
 I searched 112.85.42.13 in Hybrid Analysis to get an additional source on the IP address reputation. The results identified the IP address as malicious with a Threat Score of 100/100.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/61f89c0b-17b2-4097-a052-58c36681b2c0" height="80%" width="80%"/>
 </br>
 </br>
 
