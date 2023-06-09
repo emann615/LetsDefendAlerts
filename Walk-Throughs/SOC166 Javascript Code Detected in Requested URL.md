@@ -48,7 +48,7 @@ I searched 112.85.42.13 in Hybrid Analysis to get an additional source on the IP
 
 After examining the requested URL, I was able to confirm it does contain a script.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/35fb6322-ed00-4de8-b79d-20bf3a64b10b" height="80%" width="80%"/>
 </br>
 </br>
 
