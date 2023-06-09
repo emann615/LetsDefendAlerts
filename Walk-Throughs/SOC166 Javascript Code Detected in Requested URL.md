@@ -14,7 +14,7 @@ The Monitoring page shows that this alert was triggered because JavaScript code 
 
 ## Collect Data
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/10eea122-697a-479a-ba7c-02fcdf785e8b" height="80%" width="80%"/>
 </br>
 </br>
 
