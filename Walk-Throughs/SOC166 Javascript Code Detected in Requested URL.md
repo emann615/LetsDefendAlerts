@@ -54,10 +54,6 @@ After examining the requested URL, I was able to confirm it does contain a scrip
 
 ## Is the Traffic Malicious
 
-<img src="" height="80%" width="80%"/>
-</br>
-</br>
-
 Based on the information found in the previous step of my investigation, the traffic appears to be malicious. JavaScript code has been inserted into the requested URL, and the source IP address (112.85.42.13) has been identified as malicious by multiple sources.
 
 ### What Is The Attack Type?
