@@ -129,3 +129,9 @@ Based on the organization's escalation procedure, there is no need to escalate t
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/01056aad-108a-4437-bf47-8d3774c19425" height="80%" width="80%"/>
 </br>
 </br>
+
+## Results
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/9c70bbb0-8859-4f1c-92ae-6e2048e140bc" height="80%" width="80%"/>
+</br>
+</br>
