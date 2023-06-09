@@ -106,7 +106,7 @@ After checking the raw logs for each entry, I was able to see that multiple atte
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ee182885-5d6e-4e0b-8826-114e1d8b9d2d" height="60%" width="60%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ee182885-5d6e-4e0b-8826-114e1d8b9d2d" height="40%" width="40%"/>
 </br>
 </br>
 
