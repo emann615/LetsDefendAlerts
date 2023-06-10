@@ -35,31 +35,31 @@ I went to the Log Management page to see if there are any entries that correspon
 
 I checked the raw log data for the entry that occurred at the time of the alert. There is no indication of a command injection attack in the HTTP request. It appears the alert was most likely triggered because the user searched the word "skills" on the blog page.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/99eb698f-65fc-45bb-9e91-4ec97a689d77" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/99eb698f-65fc-45bb-9e91-4ec97a689d77" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/210b2502-d0b6-4ddc-928f-d783556fac80" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/210b2502-d0b6-4ddc-928f-d783556fac80" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ee359e4b-bb57-436b-ab0f-00e274e37fe3" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ee359e4b-bb57-436b-ab0f-00e274e37fe3" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/beb38809-c28f-4b53-813b-4a025dbca5e3" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/beb38809-c28f-4b53-813b-4a025dbca5e3" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/d0829f5b-819c-45cc-9009-f47eb1f1776b" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/d0829f5b-819c-45cc-9009-f47eb1f1776b" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/3291236d-8cb9-41a6-a22d-5205376d139c" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/3291236d-8cb9-41a6-a22d-5205376d139c" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/41aa08e1-53f4-4c64-9753-a653ff95fd71" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/41aa08e1-53f4-4c64-9753-a653ff95fd71" height="40%" width="40%"/>
 </br>
 </br>
 
