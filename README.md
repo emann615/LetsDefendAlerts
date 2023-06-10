@@ -1,6 +1,6 @@
 # LetsDefend Alert Walk-Throughs
 
-LetsDefend is a hands-on Blue Team training platform that enables people to gain practical experience by investigating real cyber attacks inside a simulated SOC. Listed below, I have included links to walk-throughs that I created for the different alrets you can investigate.
+LetsDefend is a hands-on Blue Team training platform that enables people to gain practical experience by investigating real cyber attacks inside a simulated SOC. Listed below, I have included links to walk-throughs for the different alrets I have investigated.
 
 ## Web Attacks
 
