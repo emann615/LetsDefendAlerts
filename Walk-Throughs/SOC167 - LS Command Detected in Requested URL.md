@@ -3,11 +3,27 @@
 
 On the Monitoring page, I see that the alert was triggered because a ls command was detected in the requested URL. I take ownership of the alert and create a case, so I can start the playbook.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Data Collected
 
 I went to the Endpoint Security page and did a search for the destination IP address (188.114.96.15) to see if it was on the internal network. The results returned EliotPRD, but the IP address for that device does not match. The IP address for EliotPRD actually matches the source IP address (172.16.17.46) on the alert. 
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 I also saw that the primary user for that device is Eliot, and the last login was on Feb, 27, 2022, 12:00 AM. Based on this information, the source IP address belongs to the internal network, and the destination IP address is from an external network. The HTTP request was sent from the EliotPRD device to a device (188.114.96.15) on the internet.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 ## Examine HTTP Traffic
 
