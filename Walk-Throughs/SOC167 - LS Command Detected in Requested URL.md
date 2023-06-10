@@ -7,7 +7,7 @@ On the Monitoring page, I see that the alert was triggered because a ls command 
 
 I went to the Endpoint Security page and did a search for the destination IP address (188.114.96.15) to see if it was on the internal network. The results returned EliotPRD, but the IP address for that device does not match. The IP address for EliotPRD actually matches the source IP address (172.16.17.46) on the alert. 
 
-I also saw that the Primary User for that device is Eliot, and the Last Login was on Feb, 27, 2022, 12:00 AM. Based on this information, the source IP address belongs to the internal network, and the destination IP address is from an external Network. The HTTP request was sent from the EliotPRD device to a device (188.114.96.15) on the internet.
+I also saw that the primary user for that device is Eliot, and the last login was on Feb, 27, 2022, 12:00 AM. Based on this information, the source IP address belongs to the internal network, and the destination IP address is from an external Network. The HTTP request was sent from the EliotPRD device to a device (188.114.96.15) on the internet.
 
 ## Examine HTTP Traffic
 
