@@ -69,7 +69,7 @@ I checked the raw data for the other log entries to confirm that there is no mal
 
 On the Endpoint Security page, I checked the browser history for EliotPRD. The browser history shows that the user was browsing a blog page on the domain letsdefend.io, and searched the word "skills". These records match what I saw in the logs.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/89feb8e8-d550-4da1-b57d-1c56429057d8" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -79,12 +79,12 @@ Based of the information found in my investigation, the traffic is not malicious
 
 ## Analyst Note
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/971efccf-5ca9-41a8-84de-17413be467a5" height="80%" width="80%"/>
 </br>
 </br>
 
 ## Result
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/78594157-1c09-4eeb-955d-24a5715f73e2" height="80%" width="80%"/>
 </br>
 </br>
