@@ -39,6 +39,9 @@ I checked the raw log data for the entry that occurred at the time of the alert.
 </br>
 </br>
 
+I checked the raw data for the other log entries to confirm that there is no malicious activity in any of the other HTTP traffic. I could find no evidence of malicious activity.
+
+
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/210b2502-d0b6-4ddc-928f-d783556fac80" height="40%" width="40%"/>
 </br>
 </br>
@@ -63,11 +66,6 @@ I checked the raw log data for the entry that occurred at the time of the alert.
 </br>
 </br>
 
-I checked the raw data for the other log entries to confirm that there is no malicious activity in any of the other HTTP traffic. I could find no evidence of malicious activity.
-
-<img src="" height="80%" width="80%"/>
-</br>
-</br>
 
 On the Endpoint Security page, I checked the browser history for EliotPRD. The browser history shows that the user was browsing a blog page on the domain letsdefend.io, and searched the word "skills". These records match what I saw in the logs.
 
