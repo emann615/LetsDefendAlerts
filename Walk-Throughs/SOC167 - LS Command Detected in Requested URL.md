@@ -17,7 +17,7 @@ I checked the raw log data for the entry that occurred at the time of the alert.
 
 I checked the raw data for the other log entries to confirm that there is no malicious activity in any of the other HTTP traffic. I could find no evidence of malicious activity.
 
-On the Endpoint Security page, I checked the browser history for EliotPRD. Based on the browser history, I can see that the user was browsing a blog page on the domain letsdefend.io, and searched the word "skills". These records match what I saw in the logs.
+On the Endpoint Security page, I checked the browser history for EliotPRD. The browser history shows that the user was browsing a blog page on the domain letsdefend.io, and searched the word "skills". These records match what I saw in the logs.
 
 ## Is Traffic Malicious?
 
