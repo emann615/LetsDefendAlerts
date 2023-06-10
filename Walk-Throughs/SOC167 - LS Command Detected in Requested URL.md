@@ -11,7 +11,7 @@ I also saw that the primary user for that device is Eliot, and the last login wa
 
 ## Examine HTTP Traffic
 
-I went to the Log Management page to see if there are any entries that correspond to the alert. I searched the destination IP address (188.114.96.15) and multiple entries were returned. It appears that this alert was triggered because the user searched "skills" on the blog page.
+I went to the Log Management page to see if there are any entries that correspond to the alert. I searched the destination IP address (188.114.96.15), and multiple entries were returned.
 
 I checked the raw log data for the entry that occurred at the time of the alert. There is no indication of a command injection attack in the HTTP request. It appears the alert was most likely triggered because the user searched the word "skills" on the blog page.
 
