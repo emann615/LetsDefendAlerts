@@ -29,11 +29,51 @@ I also saw that the primary user for that device is Eliot, and the last login wa
 
 I went to the Log Management page to see if there are any entries that correspond to the alert. I searched the destination IP address (188.114.96.15), and multiple entries were returned.
 
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/1f335533-fac3-4b28-8df1-4817b7ad33c3" height="80%" width="80%"/>
+</br>
+</br>
+
 I checked the raw log data for the entry that occurred at the time of the alert. There is no indication of a command injection attack in the HTTP request. It appears the alert was most likely triggered because the user searched the word "skills" on the blog page.
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/99eb698f-65fc-45bb-9e91-4ec97a689d77" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/210b2502-d0b6-4ddc-928f-d783556fac80" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ee359e4b-bb57-436b-ab0f-00e274e37fe3" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/beb38809-c28f-4b53-813b-4a025dbca5e3" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/d0829f5b-819c-45cc-9009-f47eb1f1776b" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/3291236d-8cb9-41a6-a22d-5205376d139c" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/41aa08e1-53f4-4c64-9753-a653ff95fd71" height="80%" width="80%"/>
+</br>
+</br>
 
 I checked the raw data for the other log entries to confirm that there is no malicious activity in any of the other HTTP traffic. I could find no evidence of malicious activity.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 On the Endpoint Security page, I checked the browser history for EliotPRD. The browser history shows that the user was browsing a blog page on the domain letsdefend.io, and searched the word "skills". These records match what I saw in the logs.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 ## Is Traffic Malicious?
 
@@ -41,4 +81,12 @@ Based of the information found in my investigation, the traffic is not malicious
 
 ## Analyst Note
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Result
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
