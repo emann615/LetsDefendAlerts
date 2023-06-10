@@ -52,7 +52,7 @@ After examining the requested URL, I was able to confirm it does contain a scrip
 </br>
 </br>
 
-## Is the Traffic Malicious
+## Is the Traffic Malicious?
 
 Based on the information found in the previous step of my investigation, the traffic appears to be malicious. JavaScript code has been inserted into the requested URL, and the source IP address (112.85.42.13) has been identified as malicious by multiple sources.
 
