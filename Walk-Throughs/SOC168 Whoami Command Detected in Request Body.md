@@ -86,15 +86,15 @@ After examining the logs of the HTTP traffi, I found evidence of terminal comman
 
 On the Email Security page, I searched the hostname, destination IP address, and source IP address to see if there are any emails indicating that this was a planned test. No results were returned, so this does not appear to be a planned test.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f7f1159d-443d-4751-b174-200725669a5b" height="80%" width="80%"/>
 </br>
 </br>
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0c597932-db1a-4cd4-bd1a-896c349d9446" height="80%" width="80%"/>
 </br>
 </br>
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f2cde830-0643-43f0-8fb4-a57551b143e6" height="80%" width="80%"/>
 </br>
 </br>
 
