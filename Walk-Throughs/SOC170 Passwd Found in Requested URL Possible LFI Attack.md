@@ -38,7 +38,7 @@ I searched 106.55.45.162 in VirusTotal. After reanalyzing the IP address, 3/89 v
 </br>
 </br>
 
-I searched 106.55.45.162 in Hybrid Analysis. The IP address was identified as suspicious with a Threat Score of 50/100.
+I searched 106.55.45.162 in Hybrid Analysis. The IP address was identified as suspicious with a Threat Score of 100/100.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ff626624-eedf-4275-8026-1fab47105316" height="80%" width="80%"/>
 </br>
