@@ -12,7 +12,7 @@ I searched 134.209.118.137 AbuseIPDB to find information on its ownership and re
 
 I searched 134.209.118.137 in Cisco Talos IP & Domain Reputation Center. It shows the Sender IP Reputation is Poor.
 
-I searched 134.209.118.137 in VirusTotal. After reanalyzing the IP address, 1/89 vendors flagged the IP address as malicious.
+I searched 134.209.118.137 in VirusTotal. After reanalyzing the IP address, 1/89 vendors flagged it as malicious.
 
 I searched 134.209.118.137 in Hybrid Analysis. The IP address was identified as malicious with a Threat Score of 50/100.
 
