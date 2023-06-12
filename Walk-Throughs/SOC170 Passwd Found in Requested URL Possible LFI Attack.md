@@ -64,7 +64,7 @@ Based on the information found after analyzing the source IP address and the raw
 
 ## What Is The Attack Type?
 
-The attack type is LFI.
+The attack type is LFI, because the attacker included a local password file in the requested URL.
 
 ## Check If It Is a Planned Test
 
