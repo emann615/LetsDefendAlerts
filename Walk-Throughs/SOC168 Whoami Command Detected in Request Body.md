@@ -6,7 +6,7 @@ On the Monitoring page, I see that the alert was triggered because a whoami comm
 
 ## Collect Data
 
-I went to the Endpoint Security page and did a search for the destination IP address and source IP address to see if they belong to the internal network. The destination IP address (172.16.17.16) is associated with WebServer1004 on the internal network. No results were populated for the source IP address (61.177.172.87), indicating it is from an external network.
+I went to the Endpoint Security page, and did a search for the destination IP address and source IP address to see if they belong to the internal network. The destination IP address (172.16.17.16) is associated with WebServer1004 on the internal network. No results were populated for the source IP address (61.177.172.87), indicating it is from an external network.
 
 I searched 61.177.172.87 in AbuseIPDB to find information on its ownership and reputation. The ISP is ChinaNet Jiangsu Province Network, based out of China. The IP address has been reported 87,677 times, and the Confidence of Abuse is 0%.
 
@@ -24,7 +24,7 @@ I examined the raw data for each entry to see the full HTTP request headers. All
 
 ## Is Traffic Malicious?
 
-Based on the information found after analyzing the source IP address and the log data that corresponds with the alert, the traffic appears to be malicious.
+Based on the information found after analyzing the source IP address and the raw log data that corresponds with the alert, the traffic appears to be malicious.
 
 ## What Is The Attack Type?
 
