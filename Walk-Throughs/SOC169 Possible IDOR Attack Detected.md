@@ -86,15 +86,15 @@ The attack type is IDOR.
 
 On the Email Security page, I searched the hostname, destination IP address, and source IP address to see if there are any emails indicating that this was a planned test. No results were returned, so this does not appear to be a planned test.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/6f873494-6160-4f37-8b12-618dbd8c4182" height="80%" width="80%"/>
 </br>
 </br>
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/feaa08c3-bd07-4fb1-9206-71c1b190ce99" height="80%" width="80%"/>
 </br>
 </br>
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/b41a9b03-d7f6-4930-905c-cca0d5f6ac9f" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -110,7 +110,15 @@ Based on the HTTP Response Status and HTTP Response Size I saw in the raw log da
 
 Since the server was compromised, I contained the host to prevent the spread of the attack and reduce the impact.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Add Artifacts
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 134.209.118.137 - Attacker's IP address
 172.16.17.15 - Compromised server's IP address
@@ -120,5 +128,9 @@ Since the server was compromised, I contained the host to prevent the spread of 
 Based on the organizations escalation policy, escalation of the case is required because the attack was successful.
 
 ## Analyst Note
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 An IDOR attack against WebServer1005 was attempted by 134.209.118.137. After examining the raw log data, I was able to determine the attack was successful. I contained WebServer1005 to prevent the spread of the attack, and escalated the case to tier 2.
