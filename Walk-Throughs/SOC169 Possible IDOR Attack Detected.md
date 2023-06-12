@@ -8,7 +8,7 @@ On the Monitoring page, I see that the alert was triggered because consecutive r
 
 I went to the Endpoint Security page, and did a search for the destination IP address and source IP address to see if they belong to the internal network. The destination IP address (172.16.17.15) is associated with WebServer1005 on the internal network. The source IP address (134.209.118.137) returns no result, indicating it is from an external network.
 
-I searched 134.209.118.137 AbuseIPDB to find information on its ownership and reputation. The ISP is DigitalOcean LLC. The IP address has been reported **1,539** times, and the Confidence of Abuse is **1%**.
+I searched 134.209.118.137 AbuseIPDB to find information on its ownership and reputation. The ISP is DigitalOcean LLC. The IP address has been reported 1,539 times, and the Confidence of Abuse is 1%.
 
 I searched 134.209.118.137 in Cisco Talos IP & Domain Reputation Center. It shows the Sender IP Reputation is Poor.
 
