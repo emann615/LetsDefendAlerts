@@ -62,6 +62,18 @@ I examined the raw data for each entry to see the full HTTP request headers. All
 </br>
 </br>
 
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/7f24abb1-889d-4765-b4ff-cf6ba776591c" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/92792e82-52a4-470c-bd0f-90baa4039257" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a4bb0fa5-8152-409a-9220-324e53eb9c66" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Is Traffic Malicious?
 
 Based on the information found after analyzing the source IP address and the raw log data that corresponds with the alert, the traffic appears to be malicious.
