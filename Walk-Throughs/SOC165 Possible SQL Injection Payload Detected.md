@@ -81,7 +81,7 @@ I searched the source IP address, destination Ip address, and hostname on the Em
 
 Based on the investigation so far, I know the source IP address is from the internet, and the destination IP address is from the internal network. Therefore, the direction of traffic is **Internet -> Company Network**.
 
-## Check Whether the Attack Was Successful
+## Was the Attack Successful?
 
 I checked the Log Managment page to see if there was any indication that the attack was successful. I searched the source IP address (167.99.169.17) and found multiple log entries.
 
@@ -108,8 +108,6 @@ I decoded the URLs found in each HTTP requests. The decoded URLs show that multi
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/8d3db841-da91-4e2e-bb88-62fce1798d30" height="80%" width="80%"/>
 </br>
 </br>
-
-## Was the Attack Successful?
 
 Since mulitple there were multiple SQLi attempts using different methods that resulted in a consistent response size of 948, this indicates that that the attack was not successful.
 
