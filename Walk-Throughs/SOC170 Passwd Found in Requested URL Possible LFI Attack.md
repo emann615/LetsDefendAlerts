@@ -48,13 +48,13 @@ I searched 106.55.45.162 in Hybrid Analysis. The IP address was identified as su
 
 I examined the requested URL in the alert. It looks like someone attempted to access a password file.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f4e77f2f-715c-429c-b15a-7948136800b8" height="80%" width="80%"/>
 </br>
 </br>
 
 I searched the source IP address (106.55.45.162) on the Log Management page, and one entry was returned. I check the raw log data. The HTTP Response Status is 500, and the HTTP Response Size is 0.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/1cba66f6-eba6-44e1-bf51-734bd50a6d55" height="40%" width="40%"/>
 </br>
 </br>
 
@@ -70,15 +70,15 @@ The attack type is LFI.
 
 On the Email Security page, I searched the hostname, destination IP address, and source IP address to see if there are any emails indicating that this was a planned test. No results were returned, so this does not appear to be a planned test.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/4604a505-baf3-4b2e-9433-2734161ce84c" height="80%" width="80%"/>
 </br>
 </br>
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/5e15e290-4801-4da5-a1eb-de2aad756ff3" height="80%" width="80%"/>
 </br>
 </br>
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/de719098-5eb9-43f8-988b-7e47294278ff" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -92,8 +92,9 @@ Based on the HTTP Response Status of 500 and the HTTP Response Size of 0, I dete
 
 ## Add Artifacts
 
-106.55.45.162 - Attacker's IP address
-172.16.17.13 - Compromised server's IP address
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/5827a3d5-4942-40d6-b1e8-d8d81f8378cd" height="80%" width="80%"/>
+</br>
+</br>
 
 ## Do You Need Tier 2 Escalation?
 
@@ -101,5 +102,13 @@ Based on the organizations escalation policy, there is no need to escalate the c
 
 ## Analyst Note
 
-A LFI attack against WebServer1006 was attempted by 106.55.45.162. After examining the raw log data, I was able to determine the attack was not successful. 
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/e669d5bd-7976-4f10-b046-d8c22e62abc6" height="80%" width="80%"/>
+</br>
+</br>
+
+## Results
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/9fb60df0-8438-4b60-ba53-04e7caf7a265" height="80%" width="80%"/>
+</br>
+</br>
 
