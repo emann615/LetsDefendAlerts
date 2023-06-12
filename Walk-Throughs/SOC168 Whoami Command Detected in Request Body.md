@@ -18,57 +18,42 @@ I searched 61.177.172.87 in Hybrid Analysis. The IP address was identified as ma
 
 ## Examine HTTP Traffic
 
-Monitoring
-- No evidence of command injection in the Requested URL on the alert.
+On the Log Management page, I searched the source IP address (61.177.172.87) and found multiple log entries. 
 
-Log Management
-- I searched 61.177.172.87.
-	- Multiple (5) log entries were returned.
-- I examined the raw data for each entry to see the full HTTP request headers.
-- All the requests were targeting the Video page.
-- There is evidence of command injection in the POST Parameters header.
-- Each request has a HTTP Response Status of 200 and the HTTP Response Size was different for each request.
+I examined the raw data for each entry to see the full HTTP request headers. All the requests were targeting a video page. There is evidence of command injection in the POST Parameters header. Each request has a HTTP Response Status of 200 and the HTTP Response Size was different for each request.
 
 ## Is Traffic Malicious?
 
-- Yes, the traffic appears to be malicious.
+Based on the information found after analyzing the source IP address and the log data that corresponds with the alert, the traffic appears to be malicious.
 
 ## What Is The Attack Type?
 
-- The attack type is Command Injection.
+After examining the logs of the HTTP traffi, I found evidence of terminal commands included in the HTTP requests. This indicates the attack type is Command Injection.
 
 ## Check If It Is a Planned Test
 
-- On the Email Security page, I searched the hostname, destination IP address, and source IP address to see if there are any emails indicating that this was a planned test. No results were returned, so this does not appear to be a planned test.
+On the Email Security page, I searched the hostname, destination IP address, and source IP address to see if there are any emails indicating that this was a planned test. No results were returned, so this does not appear to be a planned test.
 
 ## What Is the Direction of Traffic?
 
-- The source IP address is from an external network, and the destination IP address is associated with a server on the internal network. This indicates that the direction of traffic is **Internet -> Company Network**.
+The source IP address is from an external network, and the destination IP address is associated with a server on the internal network. This indicates that the direction of traffic is **Internet -> Company Network**.
 
-## Check Whether the Attack Was Successful
+## Was the Attack Successful?
 
-Endpoint Security
-- I checked the Terminal History of WebServer1004.
-- I see the commands that were sent in the HTTP request are reflected in the command history on the server.
-- This indicates that the attack was successful.
-
-### Was the Attack Successful?
-
-Yes, the attack was successful.
+On the Endpoint Security page, I checked the Terminal History of WebServer1004. I see the same commands that were sent in the HTTP request are reflected in the command history on the server. This indicates that the attack was successful.
 
 ## Containment
 
-Endpoint Security
-- Since the server was compromised, I requested containment of the host to prevent the spread of the attack and reduce the impact.
+Since the server was compromised, I requested containment of the host to prevent the spread of the attack and reduce the impact.
 
 ## Add Artifacts
 
-- 61.177.172.87 - Attacker's IP address
-- 172.16.17.16 - Compromised server's IP address
+61.177.172.87 - Attacker's IP address
+172.16.17.16 - Compromised server's IP address
 
 ## Do You Need Tier 2 Escalation?
 
-- Based on the organizations escalation policy, escalation of the case is required because the attack was successful.
+Based on the organizations escalation policy, escalation of the case is required because the attack was successful.
 
 ## Analyst Note
 
