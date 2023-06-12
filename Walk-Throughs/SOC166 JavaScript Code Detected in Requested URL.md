@@ -80,7 +80,7 @@ On the Email Security page, I searched the hostname, destination IP address, and
 
 The source IP address is from the internet, and the destination IP address is associated with a server on the internal network. This indicates that the direction of traffic is **Internet -> Company Network**.
 
-## Check Whether the Attack Was Successful
+## Was the Attack Successful?
 
 I searched the source IP address (112.85.42.13) on the Log Management page to see if there is any information indicated whether or not the attack was successful. Multiple log entries were returned.
 
@@ -109,10 +109,6 @@ After checking the raw logs for each entry, I was able to see that multiple atte
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ee182885-5d6e-4e0b-8826-114e1d8b9d2d" height="40%" width="40%"/>
 </br>
 </br>
-
-## Was the Attack Successful?
-
-Based on the findings in the previous step of my investigation, the attack was not successful.
 
 ## Add Artifacts
 
