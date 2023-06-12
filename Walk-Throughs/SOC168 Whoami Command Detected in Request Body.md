@@ -106,7 +106,7 @@ The source IP address is from an external network, and the destination IP addres
 
 On the Endpoint Security page, I checked the Terminal History of WebServer1004. I saw the same commands that were sent in the HTTP request are reflected in the command history on the server. This indicates that the attack was successful.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/51a7748c-49c6-4d32-8355-bb6587a35026" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -114,16 +114,13 @@ On the Endpoint Security page, I checked the Terminal History of WebServer1004. 
 
 Since the server was compromised, I contained the host to prevent the spread of the attack and reduce the impact.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/72a0077d-3a3c-44d9-9210-1f5260c4546e" height="80%" width="80%"/>
 </br>
 </br>
 
 ## Add Artifacts
 
-61.177.172.87 - Attacker's IP address
-172.16.17.16 - Compromised server's IP address
-
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/676145a1-acb7-4d9f-b3db-ed078dab1ff4" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -133,8 +130,13 @@ Based on the organizations escalation policy, escalation of the case is required
 
 ## Analyst Note
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/89490d1e-70b0-4633-9a7c-b51abea51fb2" height="80%" width="80%"/>
 </br>
 </br>
 
-61.177.172.87 attacked WebServer1004 using command injection. The command history for WebServer1004 shows that the attack was successful. WebServer1004 has been contained to prevent the spread of the attack, and the case has been escalated to tier 2.
+## Result
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/6b6e74ef-93ae-4755-be9c-9c8cff1eaa98" height="80%" width="80%"/>
+</br>
+</br>
+
