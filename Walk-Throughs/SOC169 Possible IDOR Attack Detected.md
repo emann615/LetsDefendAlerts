@@ -48,11 +48,31 @@ I searched 134.209.118.137 in Hybrid Analysis. The IP address was identified as 
 
 I searched the source IP address (134.209.118.137) on the Log Management page, and multiple log entries were returned. 
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/cb9d418a-20f4-436d-9f5c-ba06cbbe7335" height="80%" width="80%"/>
 </br>
 </br>
 
 I examined the raw log for each entry. The Post Parameters header shows that multiple attempts were made to access user information by changing the user_id value for each request. The HTTP Response Status for all the requests is 200. The HTTP Response Size is different for each request.
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/adee7988-cee0-46af-9cc8-2f89a5d94229" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/9b87932c-afb6-431c-8576-ac2988c71cbf" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/35172118-87d9-4715-9bab-a697f070c641" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/4d3a07ca-f82a-44c0-a83c-71a581a577d3" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ed84eed6-6564-452c-91c6-365bce97aabb" height="80%" width="80%"/>
+</br>
+</br>
 
 ## Is Traffic Malicious?
 
@@ -65,6 +85,18 @@ The attack type is IDOR.
 ## Check If It Is a Planned Test
 
 On the Email Security page, I searched the hostname, destination IP address, and source IP address to see if there are any emails indicating that this was a planned test. No results were returned, so this does not appear to be a planned test.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 ## What Is the Direction of Traffic?
 
