@@ -54,23 +54,23 @@ On the Log Management page, I searched the source IP address (61.177.172.87) and
 
 I examined the raw data for each entry to see the full HTTP request headers. All the requests were targeting a video page. There is evidence of command injection in the POST Parameters header. Each request has a HTTP Response Status of 200 and the HTTP Response Size was different for each request.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/744fd0a1-77c4-4e63-a7a4-f6418f10d382" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/744fd0a1-77c4-4e63-a7a4-f6418f10d382" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/293d7c92-149e-4727-8d39-9951647fed12" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/293d7c92-149e-4727-8d39-9951647fed12" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/7f24abb1-889d-4765-b4ff-cf6ba776591c" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/7f24abb1-889d-4765-b4ff-cf6ba776591c" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/92792e82-52a4-470c-bd0f-90baa4039257" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/92792e82-52a4-470c-bd0f-90baa4039257" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a4bb0fa5-8152-409a-9220-324e53eb9c66" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a4bb0fa5-8152-409a-9220-324e53eb9c66" height="40%" width="40%"/>
 </br>
 </br>
 
