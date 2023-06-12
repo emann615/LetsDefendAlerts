@@ -46,13 +46,13 @@ I searched 106.55.45.162 in Hybrid Analysis. The IP address was identified as su
 
 ## Examine the HTTP Traffic
 
-I examined the requested URL in the alert. It looks like someone attempted to access a password file.
+I searched the source IP address (106.55.45.162) on the Log Management page, and one entry was returned. 
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f4e77f2f-715c-429c-b15a-7948136800b8" height="80%" width="80%"/>
 </br>
 </br>
 
-I searched the source IP address (106.55.45.162) on the Log Management page, and one entry was returned. I check the raw log data. The HTTP Response Status is 500, and the HTTP Response Size is 0.
+I checked the raw log data. Based on the requested URL, it looks like someone attempted to access a password file. The HTTP Response Status is 500, and the HTTP Response Size is 0.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/1cba66f6-eba6-44e1-bf51-734bd50a6d55" height="40%" width="40%"/>
 </br>
