@@ -44,7 +44,7 @@ On the Endpoint Security page, I checked the Terminal History of WebServer1004. 
 
 ## Containment
 
-Since the server was compromised, I requested containment of the host to prevent the spread of the attack and reduce the impact.
+Since the server was compromised, I contained the host to prevent the spread of the attack and reduce the impact.
 
 ## Add Artifacts
 
