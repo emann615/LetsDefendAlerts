@@ -4,7 +4,7 @@
 
 On the Monitoring page, I see that the alert was triggered because "passwd" was found in the requested URL, indicating a possible LFI attack. I took ownership of the alert and created a case, so I can start the playbook.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/5a40b96c-2f37-4470-b110-2b6ba32eee79" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -12,35 +12,35 @@ On the Monitoring page, I see that the alert was triggered because "passwd" was 
 
 I went to the Endpoint Security page, and did a search for the destination IP address and source IP address to see if they belong to the internal network. The destination IP address (172.16.17.13) is associated with WebServer1006 on the internal network. The source IP address (106.55.45.162) did not return any results, indicating it is from an external network.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/c672612a-dfc9-4795-98d9-7a68a93cee38" height="80%" width="80%"/>
 </br>
 </br>
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/8da6228c-f87e-4916-a1f7-aed9776e6085" height="80%" width="80%"/>
 </br>
 </br>
 
 I searched 106.55.45.162 in AbuseIPDB to find information on its ownership and reputation. The ISP is Tencent Cloud Computing (Beijing) Co. Ltd., based in China. This IP was reported 3,481 times, and the Confidence of Abuse is 0%.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/134d3b85-0558-4c90-a562-c3a0a261b79a" height="80%" width="80%"/>
 </br>
 </br>
 
 I searched 106.55.45.162 in Cisco Talos IP & Domain Reputation Center. The Sender IP Reputation is Poor.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/66d0d253-ed69-40b8-9d78-2b89323da945" height="80%" width="80%"/>
 </br>
 </br>
 
 I searched 106.55.45.162 in VirusTotal. After reanalyzing the IP address, 3/89 vendors flagged it as malicious.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/159f62ec-8ea5-483a-92f8-22f2fe8182fd" height="80%" width="80%"/>
 </br>
 </br>
 
 I searched 106.55.45.162 in Hybrid Analysis. The IP address was identified as suspicious with a Threat Score of 50/100.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ff626624-eedf-4275-8026-1fab47105316" height="80%" width="80%"/>
 </br>
 </br>
 
