@@ -80,7 +80,7 @@ Based on the information found after analyzing the source IP address and the raw
 
 ## What Is The Attack Type?
 
-The attack type is IDOR.
+The attack type is IDOR, becuase the attcker made requests to access information that does not belong to them by changing the user_id value.
 
 ## Check If It Is a Planned Test
 
