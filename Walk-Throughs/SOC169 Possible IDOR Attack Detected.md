@@ -110,18 +110,15 @@ Based on the HTTP Response Status and HTTP Response Size I saw in the raw log da
 
 Since the server was compromised, I contained the host to prevent the spread of the attack and reduce the impact.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/36eb7519-580b-4c7b-9c64-c8fd8c48aff0" height="80%" width="80%"/>
 </br>
 </br>
 
 ## Add Artifacts
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/c2dab97b-97c4-4d99-8301-96d6046296b8" height="80%" width="80%"/>
 </br>
 </br>
-
-134.209.118.137 - Attacker's IP address
-172.16.17.15 - Compromised server's IP address
 
 ## Do You Need Tier 2 Escalation?
 
@@ -129,8 +126,12 @@ Based on the organizations escalation policy, escalation of the case is required
 
 ## Analyst Note
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0b788726-22d0-41bd-ae44-5091fe5db3f3" height="80%" width="80%"/>
 </br>
 </br>
 
-An IDOR attack against WebServer1005 was attempted by 134.209.118.137. After examining the raw log data, I was able to determine the attack was successful. I contained WebServer1005 to prevent the spread of the attack, and escalated the case to tier 2.
+## Results
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ce1c3d32-ddb8-4113-8f37-cc7e876cfe5e" height="80%" width="80%"/>
+</br>
+</br>
