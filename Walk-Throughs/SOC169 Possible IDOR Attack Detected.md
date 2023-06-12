@@ -54,23 +54,23 @@ I searched the source IP address (134.209.118.137) on the Log Management page, a
 
 I examined the raw log for each entry. The Post Parameters header shows that multiple attempts were made to access user information by changing the user_id value for each request. The HTTP Response Status for all the requests is 200. The HTTP Response Size is different for each request.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/adee7988-cee0-46af-9cc8-2f89a5d94229" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/adee7988-cee0-46af-9cc8-2f89a5d94229" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/9b87932c-afb6-431c-8576-ac2988c71cbf" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/9b87932c-afb6-431c-8576-ac2988c71cbf" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/35172118-87d9-4715-9bab-a697f070c641" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/35172118-87d9-4715-9bab-a697f070c641" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/4d3a07ca-f82a-44c0-a83c-71a581a577d3" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/4d3a07ca-f82a-44c0-a83c-71a581a577d3" height="40%" width="40%"/>
 </br>
 </br>
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ed84eed6-6564-452c-91c6-365bce97aabb" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ed84eed6-6564-452c-91c6-365bce97aabb" height="40%" width="40%"/>
 </br>
 </br>
 
