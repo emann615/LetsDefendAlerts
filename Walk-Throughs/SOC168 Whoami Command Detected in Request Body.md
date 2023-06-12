@@ -58,6 +58,10 @@ I examined the raw data for each entry to see the full HTTP request headers. All
 </br>
 </br>
 
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/293d7c92-149e-4727-8d39-9951647fed12" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Is Traffic Malicious?
 
 Based on the information found after analyzing the source IP address and the raw log data that corresponds with the alert, the traffic appears to be malicious.
@@ -70,7 +74,7 @@ After examining the logs of the HTTP traffi, I found evidence of terminal comman
 
 On the Email Security page, I searched the hostname, destination IP address, and source IP address to see if there are any emails indicating that this was a planned test. No results were returned, so this does not appear to be a planned test.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/293d7c92-149e-4727-8d39-9951647fed12" height="80%" width="80%"/>
+<img src="" height="80%" width="80%"/>
 </br>
 </br>
 
