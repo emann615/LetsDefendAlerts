@@ -59,7 +59,7 @@ Based on the information found after analyizing the source IP address and the re
 
 ## What Is The Attack Type?
 
-After examining the logs of the HTTP traffic, I found information for an SQL query included in the requested URL. This indicates the attack type is a SQL Injection.
+After examining the logs of the HTTP traffic, I found information for an SQL query included in the requested URL. This indicates the attack type is SQL Injection.
 
 ## Check If It Is a Planned Test
 
