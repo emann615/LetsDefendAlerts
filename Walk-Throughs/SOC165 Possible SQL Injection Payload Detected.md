@@ -53,6 +53,14 @@ I used a URL decoder to decode and examine the URL in the HTTP Request. The deco
 </br>
 </br>
 
+## Is Traffic Malicious?
+
+Based on the information found after analyizing the source IP address and the requested URL, the traffic appears to be malicious.
+
+## What Is The Attack Type?
+
+After examining the logs of the HTTP traffic, I found information for an SQL query included in the requested URL. This indicate that the attack type is a SQL Injection.
+
 ## Check If It Is a Planned Test
 
 I searched the source IP address, destination Ip address, and hostname on the Email Security page. No results were populated, so their is no indication that this was a planned test. There is also no indication that an attack simulation product was used.
