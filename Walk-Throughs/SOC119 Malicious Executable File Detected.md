@@ -78,3 +78,9 @@ In order to see what happens when the file is executed, I analyzed it with AnyRu
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/dbba2aa9-93e4-4b4f-9649-ff743b5aeb21" height="80%" width="80%"/>
 </br>
 </br>
+
+## Results
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/3430813e-46ff-4595-b852-9d81cdb9db45" height="80%" width="80%"/>
+</br>
+</br>
