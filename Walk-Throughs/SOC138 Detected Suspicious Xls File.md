@@ -10,7 +10,7 @@ The Monitoring page shows that this alert was triggered because a suspicious XLS
 
 ## Define Threat Indicator
 
-I went to the Endpoint security page and searched the source address (172.16.17.56). The IP address is associated with the Sofia machine on the internal network.
+I went to the Endpoint security page and searched the source address 172.16.17.56. The IP address is associated with the Sofia machine on the internal network.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a6620d5d-3785-4367-a032-0b8e747e4715" height="80%" width="80%"/>
 </br>
@@ -18,7 +18,7 @@ I went to the Endpoint security page and searched the source address (172.16.17.
 
 I checked the event history on the machine. There are a few events in the process and terminal history, but nothing really stands out as suspicious. There are no events logged in the network and browser history.
 
-Next, I went to the Log Management page and filtered for the source address (172.16.17.56). Three entries were returned, and two of them correspond with the time of the alert. They show connection to an unknown IP address 177.53.143.89, and the raw log data looks suspicious.
+Next, I went to the Log Management page and filtered for the source address 172.16.17.56. Three entries were returned, and two of them correspond with the time of the alert. They show connection to an unknown IP address 177.53.143.89, and the raw log data looks suspicious.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0e085e07-102f-4f1e-ac8f-687b81c83f65" height="80%" width="80%"/>
 </br>
