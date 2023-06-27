@@ -24,6 +24,14 @@ Next, I went to the Log Management page and filtered for the source address (172
 </br>
 </br>
 
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/03cae954-c1bd-45d9-8148-fe51ac63be2f" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/b527e665-4717-4018-a69d-9367b5dee534" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Check if the malware is quarantined/cleaned
 
 The alert and raw log data shows that device action was allowed, so the document was not quarantined or cleaned.
