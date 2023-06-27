@@ -2,6 +2,8 @@
 
 ## Alert
 
+The alert on the Monitoring page shows that this alert was triggered because a malicious executable file was detected. I took ownership of the alert, created a case, and started the playbook.
+
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/e6bece4a-70f3-409e-aee1-83b589f764d5" height="80%" width="80%"/>
 </br>
 </br>
@@ -29,13 +31,13 @@ I took a look at the raw log data, but didn't find anything particularly interes
 
 ## Analyze URL Address
 
-I went to VirusTotal and searched the the requested URL. Only 1/90 vendors flagged the URL as malicious. 
+I went to VirusTotal and analyzed the requested URL. Only 1/90 vendors flagged the URL as malicious. 
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/c9aeb348-6b2c-43a3-a262-96c2610edf99" height="80%" width="80%"/>
 </br>
 </br>
 
-Next, I searched the destination IP address (51.195.68.163). The results show that 0/88 vendors flagged the IP address as malicious.
+Next, I analyzed the destination IP address (51.195.68.163). The results showds that 0/88 vendors flagged the IP address as malicious.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/9b16fdf6-29e1-4a1a-b279-b0c3db21b842" height="80%" width="80%"/>
 </br>
