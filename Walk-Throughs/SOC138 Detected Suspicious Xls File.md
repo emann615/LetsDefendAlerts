@@ -66,13 +66,13 @@ I analyzed the IP address 177.53.143.89 in VirusTotal, but no vendors flagged it
 
 To be safe, I also searched the domain multiwaretecnologia.com.br. This time the results showed that 10/90 vendors flagged the domain as malicious.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/b8179a5f-9f91-4e33-b6cc-3e6728d6c198" height="80%" width="80%"/>
 </br>
 </br>
 
 I searched the domain multiwaretecnologia.com.br in Hybrid Analysis. The domain is identified as malicious with a Threat Score of 100/100.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/b8179a5f-9f91-4e33-b6cc-3e6728d6c198" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/4076df06-61d2-440f-b54a-1730541be911" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -80,13 +80,19 @@ I searched the domain multiwaretecnologia.com.br in Hybrid Analysis. The domain 
 
 The C2 address was accessed.
 
-I alreadyknew that the C2 address was accessed on the Sofia machine, but I wanted to see if any other machines on the internal network accessed the address. I went back to the Log Management page and filtered for entries with a destination address of 177.53.143.89. Connection to the address was also made on a device with the IP address 172.16.17.24 
+I alreadyknew that the C2 address was accessed on the Sofia machine, but I wanted to see if any other machines on the internal network accessed the address. I went back to the Log Management page and filtered for entries with the destination IP address 177.53.143.89. Connection to the address was also made on a machine with the IP address 172.16.17.24 
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f9ccf315-f19f-4c19-bc16-14bd0aa44d22" height="80%" width="80%"/>
 </br>
 </br>
 
-On the Endpoint Security page I was able to see that IP address 172.16.17.24 is associated with the Nolan machine on the internal network. The process, network, and terminal history show evidence that the file was executed on this machine.
+On the Endpoint Security page I was able to see that IP address 172.16.17.24 is associated with the Nolan machine on the internal network. 
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/10f1644e-b0f2-4de2-a30a-f5c3f79b33b9" height="80%" width="80%"/>
+</br>
+</br>
+
+The process, network, and terminal history show evidence that the file was executed on this machine.
 
 <img src="" height="80%" width="80%"/>
 </br>
