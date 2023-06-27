@@ -110,6 +110,14 @@ The process, network, and terminal history show evidence that the file was execu
 
 I contained the Nolan and Sofia machines on the Endpoint Security Page.
 
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/acadeeeb-60f9-4763-812c-6960b032e55b" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/baf7be5f-b1be-4eda-a9db-5cb656839444" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Add Artifacts
 
 <img src="" height="80%" width="80%"/>
