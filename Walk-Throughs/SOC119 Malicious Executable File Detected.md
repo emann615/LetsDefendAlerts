@@ -2,7 +2,7 @@
 
 ## Alert
 
-The alert on the Monitoring page shows that this alert was triggered because a malicious executable file was detected. I took ownership of the alert, created a case, and started the playbook.
+The Monitoring page shows that this alert was triggered because a malicious executable file was detected. I took ownership of the alert, created a case, and started the playbook.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/e6bece4a-70f3-409e-aee1-83b589f764d5" height="80%" width="80%"/>
 </br>
