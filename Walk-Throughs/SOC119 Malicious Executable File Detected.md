@@ -51,19 +51,19 @@ I used a sandbox environment to view the page the requested URL directs to. The 
 
 I analyzed the file in VirusTotal, and 0/71 vendors flagged the file as malicious.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/75986d84-cd6e-4a92-aa19-583b1777336b" height="80%" width="80%"/>
 </br>
 </br>
 
 I also analyzed the file in Hybrid Analysis, and the results came back clean.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/1ef635ee-0f74-4aed-879f-b2efd7bf588c" height="80%" width="80%"/>
 </br>
 </br>
 
 In order to see what happens when the file is executed, I analyzed it with AnyRun. The file was flagged as malicious, but further examination of the processes created when the file is executed showed no signs of anything out of the ordinary. It simply installs WinRAR as you would expect. Despite being flagged as malicious, the file does not appear to actually do anything malicious.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f727ffaf-ccb9-4c2c-928a-9cd49b2ec6a1" height="80%" width="80%"/>
 </br>
 </br>
 
