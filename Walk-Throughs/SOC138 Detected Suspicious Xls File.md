@@ -8,8 +8,6 @@
 
 ## Define Threat Indicator
 
-Unknown or unexpected outgoing internet traffic
-
 I went to the Endpoint security page and searched the source address (172.16.17.56). The IP address is associated with the Sofia machine on the internal network.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a6620d5d-3785-4367-a032-0b8e747e4715" height="80%" width="80%"/>
@@ -37,8 +35,6 @@ Next, I went to the Log Management page and filtered for the source address (172
 The alert shows that device action was allowed, so the document was not quarantined or cleaned.
 
 ## Analyze Malware
-
-The document is malicious.
 
 I went to VirusTotal and searched the MD5 hash (7ccf88c0bbe3b29bf19d877c4596a8d4) for the file. The results show that 45/62 vendors flagged the file as malicious.
 
@@ -78,8 +74,6 @@ I searched the domain multiwaretecnologia.com.br in Hybrid Analysis. The domain 
 
 ## Check If Someone Requested the C2
 
-The C2 address was accessed.
-
 I alreadyknew that the C2 address was accessed on the Sofia machine, but I wanted to see if any other machines on the internal network accessed the address. I went back to the Log Management page and filtered for entries with the destination IP address 177.53.143.89. Connection to the address was also made on a machine with the IP address 172.16.17.24 
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/f9ccf315-f19f-4c19-bc16-14bd0aa44d22" height="80%" width="80%"/>
@@ -108,7 +102,7 @@ The process, network, and terminal history show evidence that the file was execu
 
 ### Containment
 
-I contained the Nolan and Sofia machines on the Endpoint Security Page.
+I contained the Nolan and Sofia machines on the Endpoint Security page to prevent further spread of the attack.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/acadeeeb-60f9-4763-812c-6960b032e55b" height="80%" width="80%"/>
 </br>
