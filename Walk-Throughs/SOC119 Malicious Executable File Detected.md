@@ -23,7 +23,7 @@ On the Log Management page, I filtered for the source address (172.16.17.5), and
 
 I took a look at the raw log data, but didn't find anything particularly interesting or suspicious.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/3a28c2a2-5ccf-445a-8da0-f5e7ccebc215" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/3a28c2a2-5ccf-445a-8da0-f5e7ccebc215" height="40%" width="40%"/>
 </br>
 </br>
 
