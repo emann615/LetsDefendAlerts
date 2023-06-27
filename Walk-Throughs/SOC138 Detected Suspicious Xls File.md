@@ -2,13 +2,27 @@
 
 ## Alert
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Define Threat Indicator
 
 Unknown or unexpected outgoing internet traffic
 
-I went to the Endpoint security page and searched the source address (172.16.17.56). The IP address is associated with the Sofia machine on the internal network. I checked the event history on the machine. There are a few events logged in the process and terminal history, but none of them appear to be relevant to the alert. There are no events logged in the network and browser history.
+I went to the Endpoint security page and searched the source address (172.16.17.56). The IP address is associated with the Sofia machine on the internal network.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
+I checked the event history on the machine. There are a few events logged in the process and terminal history, but none of them appear to be relevant to the alert. There are no events logged in the network and browser history.
 
 Next, I went to the Log Management page and I searched the source address (172.16.17.56). Three entries were returned, and two of them correspond with the time of the alert. They show connection to an unknown IP address 177.53.143.89, and the raw log data looks suspicious.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 ## Check if the malware is quarantined/cleaned
 
@@ -36,7 +50,7 @@ The C2 address was accessed.
 
 On the Log Management page I filtered for entries with a destination address of 177.53.143.89. Connection to the address was also made on a device with the IP address 172.16.17.24 
 
-On the Endpoint Security page I w as able to see that IP address 172.16.17.24 is associated with the Nolan machine on the internal network. The process, network, and terminal history show evidence that the file was executed on this machine.
+On the Endpoint Security page I was able to see that IP address 172.16.17.24 is associated with the Nolan machine on the internal network. The process, network, and terminal history show evidence that the file was executed on this machine.
 
 ### Containment
 
@@ -44,6 +58,19 @@ I contained the Nolan and Sofia machines on the Endpoint Security Page.
 
 ## Add Artifacts
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Analysts Note
 
-The XLSM file is a malicious document. The C2 address was accessed by the Sofia and Nolan machines. Both machines have been contained to prevent the spread of the attack.
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
+## Results
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
