@@ -34,7 +34,7 @@ Next, I went to the Log Management page and filtered for the source address (172
 
 ## Check if the malware is quarantined/cleaned
 
-The alert and raw log data shows that device action was allowed, so the document was not quarantined or cleaned.
+The alert shows that device action was allowed, so the document was not quarantined or cleaned.
 
 ## Analyze Malware
 
