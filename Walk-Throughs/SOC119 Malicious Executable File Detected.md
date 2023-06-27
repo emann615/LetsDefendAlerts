@@ -69,7 +69,7 @@ In order to see what happens when the file is executed, I analyzed it with AnyRu
 
 ## Add Artifacts
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/811e0a51-8a12-4d0a-b60a-bd96cfbebd2f" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/811e0a51-8a12-4d0a-b60a-bd96cfbebd2f" height="60%" width="60%"/>
 </br>
 </br>
 
