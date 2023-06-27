@@ -40,27 +40,27 @@ The alert and raw log data shows that device action was allowed, so the document
 
 The document is malicious.
 
-I went to VirusTotal and searched the MD5 hash (7ccf88c0bbe3b29bf19d877c4596a8d4) for the file. The results showed that 45/62 vendors flagged the file as malicious.
+I went to VirusTotal and searched the MD5 hash (7ccf88c0bbe3b29bf19d877c4596a8d4) for the file. The results show that 45/62 vendors flagged the file as malicious.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/1adab952-ce30-4f8e-a917-12e11afd4d71" height="80%" width="80%"/>
 </br>
 </br>
 
 I also searched the MD5 hash in Hybrid Analysis. The file was identified as malicious with a Threat Score 100/100.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/3f0bfd16-6025-43a4-b754-d7fd1e7a0de6" height="80%" width="80%"/>
 </br>
 </br>
 
 I I analyzed the ORDER SHEET & SPEC.xlsm file with AnyRun to see what happens when the file is opened. AnyRun identified malicious activity. The file connects to IP address 177.53.143.89, which we saw on the Log Management page. The domain for the IP address is multiwaretecnologia.com.br
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/56380959-84f4-44c3-a8a5-2462d6c04050" height="80%" width="80%"/>
 </br>
 </br>
 
-I searched 177.53.143.89 in VirusTotal, but no vendors fl agged it as malicious.
+I analyzed the IP address 177.53.143.89 in VirusTotal, but no vendors flagged it as malicious.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/c2b40733-ce73-4364-bbf4-3c5dbfefabe4" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -72,7 +72,7 @@ To be safe, I also searched the domain multiwaretecnologia.com.br. This time the
 
 I searched the domain multiwaretecnologia.com.br in Hybrid Analysis. The domain is identified as malicious with a Threat Score of 100/100.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/b8179a5f-9f91-4e33-b6cc-3e6728d6c198" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -80,9 +80,17 @@ I searched the domain multiwaretecnologia.com.br in Hybrid Analysis. The domain 
 
 The C2 address was accessed.
 
-On the Log Management page I filtered for entries with a destination address of 177.53.143.89. Connection to the address was also made on a device with the IP address 172.16.17.24 
+I alreadyknew that the C2 address was accessed on the Sofia machine, but I wanted to see if any other machines on the internal network accessed the address. I went back to the Log Management page and filtered for entries with a destination address of 177.53.143.89. Connection to the address was also made on a device with the IP address 172.16.17.24 
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 On the Endpoint Security page I was able to see that IP address 172.16.17.24 is associated with the Nolan machine on the internal network. The process, network, and terminal history show evidence that the file was executed on this machine.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 ### Containment
 
