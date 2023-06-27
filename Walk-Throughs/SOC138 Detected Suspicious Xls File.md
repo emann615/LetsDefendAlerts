@@ -102,7 +102,7 @@ The process, network, and terminal history show evidence that the file was execu
 </br>
 </br>
 
-### Containment
+## Containment
 
 I contained the Nolan and Sofia machines on the Endpoint Security page to prevent further spread of the attack.
 
