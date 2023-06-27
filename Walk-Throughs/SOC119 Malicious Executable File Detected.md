@@ -67,12 +67,12 @@ In order to see what happens when the file is executed, I analyzed it with AnyRu
 
 ## Add Artifacts
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/811e0a51-8a12-4d0a-b60a-bd96cfbebd2f" height="80%" width="80%"/>
 </br>
 </br>
 
 ## Analyst Note
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/dbba2aa9-93e4-4b4f-9649-ff743b5aeb21" height="80%" width="80%"/>
 </br>
 </br>
