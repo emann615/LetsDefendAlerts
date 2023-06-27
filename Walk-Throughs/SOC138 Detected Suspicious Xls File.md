@@ -120,19 +120,19 @@ I contained the Nolan and Sofia machines on the Endpoint Security Page.
 
 ## Add Artifacts
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a6a7600f-8b97-419a-b3a3-0f49703fd712" height="80%" width="80%"/>
 </br>
 </br>
 
 ## Analysts Note
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/1bac4390-3b41-47ab-ba49-b5513c090a52" height="60%" width="60%"/>
 </br>
 </br>
 
 ## Results
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/99d5bc10-a0e3-4153-a370-861467570a29" height="80%" width="80%"/>
 </br>
 </br>
 
