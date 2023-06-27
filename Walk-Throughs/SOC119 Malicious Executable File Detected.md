@@ -2,24 +2,50 @@
 
 ## Alert
 
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/e6bece4a-70f3-409e-aee1-83b589f764d5" height="80%" width="80%"/>
+</br>
+</br>
+
 ## Collection Data
 
-I was able to find the following information from the alert:
+I found the following information in the alert:
 * Source Address: 172.16.17.5
 * Destination Address: 51.195.68.163
 * User-Agent: Chrome - Windows
 
 ## Search Log
 
-On the Log Management page, I filtered for the source address (172.16.17.5), and two entries were returned. One of the entries corresponds to the time of the alert. I took a look at the raw log data, but didn't find anything particularly interesting or suspicious.
+On the Log Management page, I filtered for the source address (172.16.17.5), and two entries were returned. One of the entries corresponds to the time of the alert. 
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/2bf54e49-e34d-45b4-89ae-05e278836dc2" height="80%" width="80%"/>
+</br>
+</br>
+
+I took a look at the raw log data, but didn't find anything particularly interesting or suspicious.
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/3a28c2a2-5ccf-445a-8da0-f5e7ccebc215" height="80%" width="80%"/>
+</br>
+</br>
 
 ## Analyze URL Address
 
 I went to VirusTotal and searched the the requested URL. Only 1/90 vendors flagged the URL as malicious. 
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 Next, I searched the destination IP address (51.195.68.163). The results show that 0/88 vendors flagged the IP address as malicious.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 I also searched 51.195.68.163 in Hybrid Analysis. No threats were identified.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 I used a sandbox environment to view the page the requested URL directs to. The page downloads the winrar-x32-622.exe file, which is an installer for WinRAR.
 
