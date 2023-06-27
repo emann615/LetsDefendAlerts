@@ -47,9 +47,7 @@ I also searched 51.195.68.163 in Hybrid Analysis. No threats were identified.
 </br>
 </br>
 
-I used a sandbox environment to view the page the requested URL directs to. The page downloads the winrar-x32-622.exe file, which is an installer for WinRAR.
-
-I analyzed the file in VirusTotal, and 0/71 vendors flagged the file as malicious.
+I used a sandbox environment to view the page the requested URL directs to. The page downloads the winrar-x32-622.exe file, which is an installer for WinRAR. I analyzed the file in VirusTotal, and 0/71 vendors flagged the file as malicious.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/75986d84-cd6e-4a92-aa19-583b1777336b" height="80%" width="80%"/>
 </br>
