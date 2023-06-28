@@ -4,8 +4,8 @@ LetsDefend is a hands-on Blue Team training platform that enables people to gain
 
 ## Web Attacks
 
-- [EventID 120 - SOC170 - Passwd Found in Requested URL - Possible LFI Attack](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/SOC170%20Passwd%20Found%20in%20Requested%20URL%20Possible%20LFI%20Attack.md)
-- [EventID 119 - SOC169 - Possible IDOR Attack Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/SOC169%20Possible%20IDOR%20Attack%20Detected.md)
+- [EventID 120 - SOC170 - Passwd Found in Requested URL - Possible LFI Attack](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%20120%20-%20SOC170%20-%20Passwd%20Found%20in%20Requested%20URL%20-%20Possible%20LFI%20Attack.md)
+- [EventID 119 - SOC169 - Possible IDOR Attack Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%20119%20-%20SOC169%20-%20Possible%20IDOR%20Attack%20Detected.md)
 - [EventID 118 - SOC168 - Whoami Command Detected in Request Body](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%20118%20-%20SOC168%20-%20Whoami%20Command%20Detected%20in%20Request%20Body.md)
 - [EventID 117 - SOC167 - LS Command Detected in Requested URL](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%20117%20-%20SOC167%20-%20LS%20Command%20Detected%20in%20Requested%20URL.md)
 - [EventID 116 - SOC166 - JavaScript Code Detected in Requested URL](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%20116%20-%20SOC166%20-%20JavaScript%20Code%20Detected%20in%20Requested%20URL.md)
