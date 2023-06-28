@@ -116,7 +116,7 @@ I contained the Nolan and Sofia machines on the Endpoint Security page to preven
 
 ## Add Artifacts
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a6a7600f-8b97-419a-b3a3-0f49703fd712" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a6a7600f-8b97-419a-b3a3-0f49703fd712" height="60%" width="60%"/>
 </br>
 </br>
 
