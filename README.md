@@ -13,8 +13,8 @@ LetsDefend is a hands-on Blue Team training platform that enables people to gain
 
 ## Malware Attacks
 
-- [EventID 85 - SOC109 - Emotet Malware Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/SOC109%20-%20Emotet%20Malware%20Detected.md)
-- [EventID 77 - SOC138 - Detected Suspicious Xls File](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/SOC138%20Detected%20Suspicious%20Xls%20File.md)
-- [EventID 83 - SOC119 - Proxy - Malicious Executable File Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/SOC119%20Malicious%20Executable%20File%20Detected.md)
+- [EventID 85 - SOC109 - Emotet Malware Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%2085%20-%20SOC109%20-%20Emotet%20Malware%20Detected.md)
+- [EventID 77 - SOC138 - Detected Suspicious Xls File](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%2077%20-%20SOC138%20-%20Detected%20Suspicious%20Xls%20File.md)
+- [EventID 83 - SOC119 - Proxy - Malicious Executable File Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%2083%20-%20SOC119%20-%20Proxy%20-%20Malicious%20Executable%20File%20Detected.md)
 
 ## Phishing Attacks
