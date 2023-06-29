@@ -17,7 +17,7 @@ The Monitoring page shows that this alert was triggered because phishing mail wa
 * Is the mail content suspicious? Yes
 * Are there any attachment? Yes
 
-### Are there attachments or URLs in the email?
+## Are there attachments or URLs in the email?
 
 I searched the email subject (RE: Meeting Notes) on the Email Security page and found an email that corresponds to the alert. 
 
@@ -31,7 +31,7 @@ The email contains an attachment to a zip file.
 </br>
 </br>
 
-### Analyze Url/Attachment
+## Analyze Url/Attachment
 
 I downloaded the file in a sandbox environment and unzipped the file. I found three different files inside the folder, two dll files and one excel file.
 - iroto.dll 
