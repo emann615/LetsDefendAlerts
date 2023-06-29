@@ -47,7 +47,7 @@ I also took a look at the Joe Snadbox analysis report for the URL. The report id
 
 The alert shows that Device Action was Allowed, indicating that the email was delivered to the user.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/56824935-1673-4ad4-a947-bb8a2599a70d" height="60%" width="60%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/56824935-1673-4ad4-a947-bb8a2599a70d" height="50%" width="50%"/>
 </br>
 </br>
 
