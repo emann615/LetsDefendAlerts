@@ -11,7 +11,7 @@ LetsDefend is a hands-on Blue Team training platform that enables people to gain
 - [EventID 116 - SOC166 - JavaScript Code Detected in Requested URL](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%20116%20-%20SOC166%20-%20JavaScript%20Code%20Detected%20in%20Requested%20URL.md)
 - [EventID 115 - SOC165 - Possible SQL Injection Payload Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%20115%20-%20SOC165%20-%20Possible%20SQL%20Injection%20Payload%20Detected.md)
 
-## Malware Attacks
+## Malware
 
 - [EventID 85 - SOC109 - Emotet Malware Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%2085%20-%20SOC109%20-%20Emotet%20Malware%20Detected.md)
 - [EventID 83 - SOC119 - Proxy - Malicious Executable File Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%2083%20-%20SOC119%20-%20Proxy%20-%20Malicious%20Executable%20File%20Detected.md)
@@ -19,3 +19,5 @@ LetsDefend is a hands-on Blue Team training platform that enables people to gain
 - [EventID 36 - SOC104 - Malware Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%2036%20-%20SOC104%20-%20Malware%20Detected.md)
 
 ## Phishing Attacks
+
+- [EventID 87 - SOC101 - Phishing Mail Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%2087%20-%20SOC101%20-%20Phishing%20Mail%20Detected.md)
