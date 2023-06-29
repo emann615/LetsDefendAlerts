@@ -61,7 +61,7 @@ I went to the Log Management page and searched for the URL (http://nuangaybantie
 
 The raw data for the log shows the same URL I found in the email.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/23f02e2c-74b1-423b-b985-7a0fc0fb808b" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/23f02e2c-74b1-423b-b985-7a0fc0fb808b" height="40%" width="40%"/>
 </br>
 </br>
 
@@ -77,7 +77,7 @@ Base on this information, the URL was accessed from the MarkPRD device.
 
 I contained the device to prevent the spread of the attack.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/91813e48-2920-443b-9507-52a699f638fa" height="40%" width="40%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/91813e48-2920-443b-9507-52a699f638fa" height="20%" width="20%"/>
 </br>
 </br>
 
