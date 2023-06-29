@@ -38,29 +38,29 @@ I downloaded the file in a sandbox environment and unzipped the file. I found th
 
 I went to VirusTotal and analyzed all three files. The iroto.dll file was flagged as malicious by 8/70 vendors. The iroto1.dll file was flagged as malicious by 10/69 vendors. The research-1646684671.xls file was flagged as malicious by 38/60 vendors. All three files were labeled as trojans.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/1d6b63d8-1b10-425b-819f-0428cbe373c0" height="80%" width="80%"/>
 </br>
 </br>
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/bdc2389c-ceb7-4512-bfde-9ae2c9af748c" height="80%" width="80%"/>
 </br>
 </br>
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/30420173-b12d-4fd1-9858-c0bec9940f2d" height="80%" width="80%"/>
 </br>
 </br>
 
 Next, I analyzed the files with Hybrid Analysis. All three files were identified as malicious with a Threat Score of 100/100
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/dc6c6bb8-5bae-4bab-bc39-0081262fd9bd" height="80%" width="80%"/>
 </br>
 </br>
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/aaedf717-5b23-4240-8dfa-6b34785cbdcf" height="80%" width="80%"/>
 </br>
 </br>
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/2c6e685d-9574-4af8-8b10-238ec32096c1" height="80%" width="80%"/>
 </br>
 </br>
 
