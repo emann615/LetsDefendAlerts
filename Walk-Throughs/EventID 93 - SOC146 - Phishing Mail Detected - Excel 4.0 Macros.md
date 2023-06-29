@@ -86,7 +86,7 @@ The alert shows that device action was allowed, indicating that the email was de
 
 On the Email Security page, I deleted the email.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/4b056a17-eb9a-4706-bb9a-bb62f7afb2b7" height="80%" width="80%"/>
 </br>
 </br>
 
