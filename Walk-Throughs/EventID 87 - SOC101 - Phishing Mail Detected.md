@@ -55,19 +55,19 @@ The alert shows that Device Action was Allowed, indicating that the email was de
 
 I went to the Log Management page and searched for the URL (http://nuangaybantiep.xyz). One log entry was returned with a source IP address of 172.16.17.88 and a destination IP address of 192.64.119.190. 
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/45fadcb1-c2c5-425a-94b2-662dd6bfcf25" height="80%" width="80%"/>
 </br>
 </br>
 
 The raw data for the log shows the same URL I found in the email.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/23f02e2c-74b1-423b-b985-7a0fc0fb808b" height="80%" width="80%"/>
 </br>
 </br>
 
 On the Endpoint Security page, I searched the source IP address from the log entry. It belongs to the MarkPRD device.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ffc19f04-a193-452f-9c1e-77ca5966d62f" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -77,7 +77,7 @@ Base on this information, the URL was accessed from the MarkPRD device.
 
 I contained the device to prevent the spread of the attack.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/91813e48-2920-443b-9507-52a699f638fa" height="40%" width="40%"/>
 </br>
 </br>
 
