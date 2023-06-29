@@ -36,15 +36,19 @@ I downloaded the file in a sandbox environment and unzipped the file. I found th
 - iroto1.dll
 - research-1646684671.xls
 
-I went to VirusTotal and analyzed all three files. The iroto.dll file was flagged as malicious by 8/70 vendors. The iroto1.dll file was flagged as malicious by 10/69 vendors. The research-1646684671.xls file was flagged as malicious by 38/60 vendors. All three files were labeled as trojans.
+I went to VirusTotal and analyzed all three files. The iroto.dll file was flagged as malicious by 8/70 vendors. 
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/1d6b63d8-1b10-425b-819f-0428cbe373c0" height="80%" width="80%"/>
 </br>
 </br>
 
+The iroto1.dll file was flagged as malicious by 10/69 vendors. 
+
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/bdc2389c-ceb7-4512-bfde-9ae2c9af748c" height="80%" width="80%"/>
 </br>
 </br>
+
+The research-1646684671.xls file was flagged as malicious by 38/60 vendors. 
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/30420173-b12d-4fd1-9858-c0bec9940f2d" height="80%" width="80%"/>
 </br>
