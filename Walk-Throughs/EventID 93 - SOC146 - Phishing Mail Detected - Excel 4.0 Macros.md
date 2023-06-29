@@ -2,6 +2,8 @@
 
 ## Alert
 
+The Monitoring page shows that this alert was triggered because phishing mail was detected. I took ownership of the alert, created a case, and started the playbook
+
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/d1def34f-76d0-4791-a663-e5e5062db801" height="80%" width="80%"/>
 </br>
 </br>
