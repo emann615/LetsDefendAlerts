@@ -70,7 +70,7 @@ Next, I analyzed the files with Hybrid Analysis. All three files were identified
 
 I analyzed the research-1646684671.xls file with AnyRun. Malicious activity was identified. The file creates 2 regsvr32.exe processes, one for the iroto.dll file and another one for the iroto1.dll file. The file also makes a connection to IP address 188.213.19.81. This appears to be the C2 address.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0ef1c9fd-c328-4da2-a661-c0b26a291b12" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -78,7 +78,7 @@ I analyzed the research-1646684671.xls file with AnyRun. Malicious activity was 
 
 The alert shows that device action was allowed, indicating that the email was delivered to the user.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/69912e9d-8528-4e3e-afd6-aa3e2e1b7afb" height="80%" width="80%"/>
 </br>
 </br>
 
