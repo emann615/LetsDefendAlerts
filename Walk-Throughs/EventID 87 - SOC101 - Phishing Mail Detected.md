@@ -47,7 +47,7 @@ I also took a look at the Joe Snadbox analysis report for the URL. The report id
 
 The alert shows that Device Action was Allowed, indicating that the email was delivered to the user.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/56824935-1673-4ad4-a947-bb8a2599a70d" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -83,13 +83,13 @@ I contained the device to prevent the spread of the attack.
 
 ## Add Artifacts
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/e4c4571b-32a0-4386-ab53-1d93b81b488c" height="60%" width="60%"/>
 </br>
 </br>
 
 ## Analyst Note
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/59a27172-cfd0-441c-9c1f-ea51c0138f3e" height="60%" width="60%"/>
 </br>
 </br>
 
