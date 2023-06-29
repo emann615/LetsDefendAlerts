@@ -85,7 +85,7 @@ Base on this information, the URL was accessed from the MarkPRD device.
 
 I contained the device to prevent the spread of the attack.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/91813e48-2920-443b-9507-52a699f638fa" height="20%" width="30%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/91813e48-2920-443b-9507-52a699f638fa" height="30%" width="30%"/>
 </br>
 </br>
 
