@@ -31,6 +31,14 @@ There are no attachements, but there is a URL (http://nuangaybantiep.xyz) in the
 </br>
 </br>
 
+## Analyze Url/Attachment
+
+First, I searched the SMTP address 146.56.195.192 in Cisco Talos. It is located in China and appears to be a spoofed Gmail.
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ec51b7a6-8b15-4c38-88aa-3baf961d2aeb" height="80%" width="80%"/>
+</br>
+</br>
+
 I analyzed the URL in VirusTotal. Only 1/89 vendors flagged the URL as malicious.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a953cf5a-73ea-4291-9950-03bb489ce00b" height="80%" width="80%"/>
