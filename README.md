@@ -20,4 +20,5 @@ LetsDefend is a hands-on Blue Team training platform that enables people to gain
 
 ## Phishing Attacks
 
+- [EventID 93 - SOC146 - Phishing Mail Detected - Excel 4.0 Macros](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%2093%20-%20SOC146%20-%20Phishing%20Mail%20Detected%20-%20Excel%204.0%20Macros.md)
 - [EventID 87 - SOC101 - Phishing Mail Detected](https://github.com/emann615/LetsDefendAlerts/blob/main/Walk-Throughs/EventID%2087%20-%20SOC101%20-%20Phishing%20Mail%20Detected.md)
