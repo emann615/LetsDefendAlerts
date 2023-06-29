@@ -68,7 +68,7 @@ Next, I analyzed the files with Hybrid Analysis. All three files were identified
 </br>
 </br>
 
-I analyzed the research-1646684671.xls file with AnyRun. Malicious activity was identified. The file creates 2 regsvr32.exe processes, one for the iroto.dll file and another one for the iroto1.dll file. The file also makes a connection to IP address 188.213.19.81. This appears to be the C2 address.
+I analyzed the research-1646684671.xls file with AnyRun. Malicious activity was identified. The file creates two regsvr32.exe processes, one for the iroto.dll file and another one for the iroto1.dll file. The file also makes a connection to IP address 188.213.19.81. This appears to be the C2 address.
 
 <img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0ef1c9fd-c328-4da2-a661-c0b26a291b12" height="80%" width="80%"/>
 </br>
