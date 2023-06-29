@@ -47,7 +47,7 @@ I also took a look at the Joe Snadbox analysis report for the URL. The report id
 
 The alert shows that Device Action was Allowed, indicating that the email was delivered to the user.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/56824935-1673-4ad4-a947-bb8a2599a70d" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/56824935-1673-4ad4-a947-bb8a2599a70d" height="60%" width="60%"/>
 </br>
 </br>
 
@@ -77,7 +77,7 @@ Base on this information, the URL was accessed from the MarkPRD device.
 
 I contained the device to prevent the spread of the attack.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/91813e48-2920-443b-9507-52a699f638fa" height="20%" width="20%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/91813e48-2920-443b-9507-52a699f638fa" height="20%" width="30%"/>
 </br>
 </br>
 
