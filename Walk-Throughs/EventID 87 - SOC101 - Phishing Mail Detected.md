@@ -10,12 +10,12 @@ The Monitoring page shows that this alert was triggered because phishing mail wa
 
 ## Parse Email
 
-When was it sent? Apr, 04, 2021, 11:00 PM
-What is the email's SMTP address? 146.56.195.192
-What is the sender address? lethuyan852@gmail.com
-What is the recipient address? mark@letsdefend.io
-Is the mail content suspicious? Yes
-Are there any attachment? No
+* When was it sent? Apr, 04, 2021, 11:00 PM
+* What is the email's SMTP address? 146.56.195.192
+* What is the sender address? lethuyan852@gmail.com
+* What is the recipient address? mark@letsdefend.io
+* Is the mail content suspicious? Yes
+* Are there any attachment? No
 
 ## Are there attachments or URLs in the email?
 
