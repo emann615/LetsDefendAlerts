@@ -94,19 +94,19 @@ On the Email Security page, I deleted the email.
 
 On the Log Management page, I searched the C2 address (188.213.19.81) and found one entry. The source address is 172.16.17.57.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0a912aa7-7178-4ca0-960e-29793b1b946c" height="80%" width="80%"/>
 </br>
 </br>
 
 I went to the Endpoint Security page and searched 172.16.17.57. The IP address is associated with the LarsPRD device.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/8b05e063-3e9f-47c7-bb8a-cb47aa62728d" height="80%" width="80%"/>
 </br>
 </br>
 
 I checked the process history for the device and see that Excel created a regsvr32.exe process to register the iroto.dll file. The is the same process I saw when I analyzed the research-1646684671.xls file in AnyRun.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/ec7fcf4b-745d-45b5-beeb-feaac3601a66" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -114,24 +114,24 @@ I checked the process history for the device and see that Excel created a regsvr
 
 The LarsPRD computer was contained to prevent the spread of the attack.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/b4c85501-ebcc-4acc-9eca-6e2e14808070" height="80%" width="80%"/>
 </br>
 </br>
 
 ## Add Artifacts
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/111d43ce-d880-4f6f-87cc-f71fbc73cfa3" height="80%" width="80%"/>
 </br>
 </br>
 
 ## Analyst Note
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/9eec68ce-75f3-4b6c-a57e-adfd03e845bf" height="80%" width="80%"/>
 </br>
 </br>
 
 ## Results
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/e3d6dd39-5579-4a5c-b7f1-c7f568c014b3" height="80%" width="80%"/>
 </br>
 </br>
