@@ -17,15 +17,15 @@
 
 ### Are there attachments or URLs in the email?
 
-I searched the  email subject (RE: Meeting Notes) on the Email Security page and found an email that corresponds to the alert. 
+I searched the email subject (RE: Meeting Notes) on the Email Security page and found an email that corresponds to the alert. 
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/eb719a6f-6db9-4081-aafd-c78d8f6a969f" height="80%" width="80%"/>
 </br>
 </br>
 
 The email contains an attachment to a zip file.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/aba6a1a6-430d-4844-96a6-c5eb2da934de" height="80%" width="80%"/>
 </br>
 </br>
 
