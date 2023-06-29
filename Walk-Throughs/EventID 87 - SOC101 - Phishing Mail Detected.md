@@ -4,7 +4,7 @@
 
 The Monitoring page shows that this alert was triggered because phishing mail was detected. I took ownership of the alert, created a case, and started the playbook
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/0dd6a0ee-b556-4c8b-b0a0-9102ef6d66da" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -19,21 +19,27 @@ Are there any attachment? No
 
 ## Are there attachments or URLs in the email?
 
-I went to the Email Security page and found the email by searching the email subject included in the alert. There are no attachements, but there is a URL (http://nuangaybantiep.xyz) in the body of the email.
+I went to the Email Security page and found the email by searching the email subject included in the alert.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a9edab81-9996-4c2e-84a1-066e6dff7763" height="80%" width="80%"/>
+</br>
+</br>
+
+There are no attachements, but there is a URL (http://nuangaybantiep.xyz) in the body of the email.
+
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/cdfd6126-cb27-4e74-a95a-17a070590caf" height="80%" width="80%"/>
 </br>
 </br>
 
 I analyzed the URL in VirusTotal. Only 1/89 vendors flagged the URL as malicious.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/a953cf5a-73ea-4291-9950-03bb489ce00b" height="80%" width="80%"/>
 </br>
 </br>
 
 I also took a look at the Joe Snadbox analysis report for the URL. The report identifies the URL as suspicious. The URL is currently not reachable, but appears to have previously been used to spread a trojan.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/acb20109-78e2-4feb-8655-b5905f176cc8" height="80%" width="80%"/>
 </br>
 </br>
 
