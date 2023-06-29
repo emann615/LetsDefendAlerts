@@ -78,7 +78,7 @@ I analyzed the research-1646684671.xls file with AnyRun. Malicious activity was 
 
 The alert shows that device action was allowed, indicating that the email was delivered to the user.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/69912e9d-8528-4e3e-afd6-aa3e2e1b7afb" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/69912e9d-8528-4e3e-afd6-aa3e2e1b7afb" height="50%" width="50%"/>
 </br>
 </br>
 
@@ -114,19 +114,19 @@ I checked the process history for the device and see that Excel created a regsvr
 
 The LarsPRD computer was contained to prevent the spread of the attack.
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/b4c85501-ebcc-4acc-9eca-6e2e14808070" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/b4c85501-ebcc-4acc-9eca-6e2e14808070" height="30%" width="30%"/>
 </br>
 </br>
 
 ## Add Artifacts
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/111d43ce-d880-4f6f-87cc-f71fbc73cfa3" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/111d43ce-d880-4f6f-87cc-f71fbc73cfa3" height="60%" width="60%"/>
 </br>
 </br>
 
 ## Analyst Note
 
-<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/9eec68ce-75f3-4b6c-a57e-adfd03e845bf" height="80%" width="80%"/>
+<img src="https://github.com/emann615/LetsDefendAlerts/assets/117882385/9eec68ce-75f3-4b6c-a57e-adfd03e845bf" height="60%" width="60%"/>
 </br>
 </br>
 
